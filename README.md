@@ -1,6 +1,6 @@
 # Strategy Backtesting Engine
 
-**Live Demo:** _[link coming soon]_
+**Live Demo:** https://strategy-backtesting-engine-app.streamlit.app/
 
 A Python quantitative finance project that backtests five systematic trading strategies against real historical market data and presents the results on an interactive Streamlit dashboard.
 
@@ -16,7 +16,7 @@ The five strategies are **fully locked**: their parameters and rules are identic
 
 ## Live App
 
-> **Try it:** _[Streamlit Community Cloud link — coming soon]_
+> **Try it:** https://strategy-backtesting-engine-app.streamlit.app/
 
 The app lets you select any strategy, asset, and timeframe combination and see the full equity curve, drawdown chart, entry/exit signals, and performance metrics — all in the browser with no setup.
 
