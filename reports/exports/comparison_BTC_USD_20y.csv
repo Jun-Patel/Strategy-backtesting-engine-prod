@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,BTC-USD,20,13629.3822,52.7635,45.4451,0.8729809931031255,-69.2737,60.0,10,254.0682,252.2,16799.9753,-3170.5932,2014-09-17,2026-04-27,4241
+rsi_mean_reversion,RSI Mean Reversion,BTC-USD,20,486.5651,16.4503,29.3391,0.5034239132847513,-54.7996,71.4286,28,8.3266,32.107142857142854,16799.9753,-16313.4103,2014-09-17,2026-04-27,4241
+breakout_a,Breakout Strategy A — Simple Breakout,BTC-USD,20,13591.9906,52.7276,35.407,1.001161706181454,-56.5227,48.3871,62,13.7691,31.096774193548388,16799.9753,-3207.9847,2014-09-17,2026-04-27,4241
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,BTC-USD,20,974.7036,22.6813,20.7816,0.7824253165326287,-29.4222,61.9048,21,13.8866,37.142857142857146,16799.9753,-15825.2717,2014-09-17,2026-04-27,4241
+hybrid,Hybrid Allocation Strategy,BTC-USD,20,4673.4795,39.4833,36.1774,0.816323253264514,-58.7513,66.1017,59,51.9567,71.20338983050847,16799.9753,-12126.4959,2014-09-17,2026-04-27,4241

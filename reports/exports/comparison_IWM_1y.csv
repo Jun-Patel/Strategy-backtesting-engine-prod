@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,IWM,1,4.6546,4.603,9.5312,0.5228823457838474,-10.0584,100.0,1,4.55,80.0,47.0942,-42.4396,2025-04-23,2026-04-27,254
+rsi_mean_reversion,RSI Mean Reversion,IWM,1,0.0,0.0,0.0,,0.0,,0,,,47.0942,-47.0942,2025-04-23,2026-04-27,254
+breakout_a,Breakout Strategy A — Simple Breakout,IWM,1,8.0922,8.0011,12.7325,0.6721405487011294,-10.0627,50.0,6,1.3585,35.166666666666664,47.0942,-39.002,2025-04-23,2026-04-27,254
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,IWM,1,0.0,0.0,0.0,,0.0,,0,,,47.0942,-47.0942,2025-04-23,2026-04-27,254
+hybrid,Hybrid Allocation Strategy,IWM,1,1.3964,1.3811,2.7772,0.511195164680487,-3.0302,100.0,1,4.55,80.0,47.0942,-45.6978,2025-04-23,2026-04-27,254

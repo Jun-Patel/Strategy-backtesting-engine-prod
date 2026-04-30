@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,QQQ,5,94.6267,14.2043,15.4253,0.942371648277177,-22.7683,66.6667,3,27.4833,366.6666666666667,101.4571,-6.8304,2021-04-23,2026-04-27,1258
+rsi_mean_reversion,RSI Mean Reversion,QQQ,5,24.2819,4.4311,11.1285,0.44652694090043643,-15.6852,83.3333,6,3.732,28.666666666666668,101.4571,-77.1752,2021-04-23,2026-04-27,1258
+breakout_a,Breakout Strategy A — Simple Breakout,QQQ,5,45.3218,7.7401,12.2197,0.6743445622463449,-19.1099,52.1739,23,1.7958,40.04347826086956,101.4571,-56.1353,2021-04-23,2026-04-27,1258
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,QQQ,5,-0.8686,-0.1738,4.7266,-0.013314487686570741,-6.8975,66.6667,3,-0.2072,45.666666666666664,101.4571,-102.3257,2021-04-23,2026-04-27,1258
+hybrid,Hybrid Allocation Strategy,QQQ,5,32.8101,5.8227,7.7691,0.7709622895093574,-13.2651,75.0,12,8.685,117.41666666666667,101.4571,-68.647,2021-04-23,2026-04-27,1258

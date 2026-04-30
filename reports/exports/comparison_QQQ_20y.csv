@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,QQQ,20,1084.9928,13.1428,17.1707,0.807171123233122,-28.5594,83.3333,12,25.5655,470.1666666666667,1748.7183,-663.7255,2006-04-24,2026-04-27,5034
+rsi_mean_reversion,RSI Mean Reversion,QQQ,20,48.8124,2.0052,13.4795,0.21488071900379052,-46.4892,78.2609,23,2.0541,38.608695652173914,1748.7183,-1699.9059,2006-04-24,2026-04-27,5034
+breakout_a,Breakout Strategy A — Simple Breakout,QQQ,20,329.5056,7.5508,11.7001,0.6823806607142318,-23.3794,55.1724,87,1.8601,45.206896551724135,1748.7183,-1419.2127,2006-04-24,2026-04-27,5034
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,QQQ,20,17.4803,0.8079,4.0432,0.21978450860380278,-13.4614,57.1429,14,1.2745,45.5,1748.7183,-1731.238,2006-04-24,2026-04-27,5034
+hybrid,Hybrid Allocation Strategy,QQQ,20,344.0005,7.7293,10.8142,0.7443712168677137,-20.8763,73.4694,49,7.5892,146.26530612244898,1748.7183,-1404.7178,2006-04-24,2026-04-27,5034

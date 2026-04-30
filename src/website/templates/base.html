@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Strategy Backtesting Engine{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <span class="nav-brand">Strategy Backtesting Engine</span>
+      <ul class="nav-links">
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#strategies">Strategies</a></li>
+        <li><a href="#charts">Charts</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>Strategy Backtesting Engine</strong> &mdash;
+        Demo research project. Not financial advice.
+      </p>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+
+  <!-- Scroll-reveal: adds .is-visible to .reveal / .reveal-stagger elements on entry -->
+  <script>
+  (function () {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add("is-visible");
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.07 });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".reveal, .reveal-stagger").forEach(function (el) {
+        io.observe(el);
+      });
+    });
+  })();
+  </script>
+
+</body>
+</html>

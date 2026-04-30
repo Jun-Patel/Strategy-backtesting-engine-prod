@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,GLD,20,346.9324,7.7647,14.2702,0.5970165907201767,-35.7834,38.4615,13,17.1417,368.7692307692308,596.6108,-249.6784,2006-04-24,2026-04-27,5034
+rsi_mean_reversion,RSI Mean Reversion,GLD,20,41.0302,1.732,7.403,0.2694431417469742,-25.7984,73.0769,26,1.4513,40.11538461538461,596.6108,-555.5806,2006-04-24,2026-04-27,5034
+breakout_a,Breakout Strategy A — Simple Breakout,GLD,20,79.9111,2.9767,12.5575,0.2973355911362752,-24.1124,40.9091,88,0.8343,35.625,596.6108,-516.6997,2006-04-24,2026-04-27,5034
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,GLD,20,82.7718,3.0579,10.3385,0.34407893794479605,-23.9596,41.5094,53,1.3559,37.58490566037736,596.6108,-513.839,2006-04-24,2026-04-27,5034
+hybrid,Hybrid Allocation Strategy,GLD,20,153.6716,4.759,9.5145,0.5377132888995675,-22.2696,50.0,92,3.6135,85.09782608695652,596.6108,-442.9392,2006-04-24,2026-04-27,5034

@@ -1,0 +1,6 @@
+strategy,strategy_name,ticker,timeframe_years,total_return_pct,annualized_return_pct,volatility_pct,sharpe_ratio,max_drawdown_pct,win_rate_pct,trade_count,avg_trade_return_pct,avg_holding_period_days,benchmark_return_pct,outperformance_pct,data_start,data_end,n_bars
+ma_crossover,Moving Average Crossover,SPY,10,144.8801,9.3586,14.9449,0.6755740527645855,-33.7173,80.0,5,20.7434,555.4,303.1169,-158.2368,2016-04-25,2026-04-27,2516
+rsi_mean_reversion,RSI Mean Reversion,SPY,10,24.466,2.2103,11.7809,0.24515229515705952,-28.3426,90.9091,11,2.1108,30.818181818181817,303.1169,-278.6509,2016-04-25,2026-04-27,2516
+breakout_a,Breakout Strategy A — Simple Breakout,SPY,10,100.4562,7.1936,9.4759,0.7829140473258402,-10.6801,53.1915,47,1.5825,46.02127659574468,303.1169,-202.6607,2016-04-25,2026-04-27,2516
+breakout_b,Breakout Strategy B — Filtered Breakout Swing,SPY,10,5.1968,0.5074,4.8386,0.12936246207168253,-12.2604,44.4444,9,0.6297,49.888888888888886,303.1169,-297.9201,2016-04-25,2026-04-27,2516
+hybrid,Hybrid Allocation Strategy,SPY,10,50.9556,4.1994,7.8025,0.5679879534384649,-18.5108,72.0,25,5.3041,142.6,303.1169,-252.1612,2016-04-25,2026-04-27,2516

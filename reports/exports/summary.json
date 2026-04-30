@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-04-28T10:02:32.547214+00:00",
+  "coverage": {
+    "available": 100,
+    "missing": 0,
+    "total_possible": 100
+  },
+  "assets": [
+    "SPY",
+    "QQQ",
+    "BTC-USD",
+    "IWM",
+    "GLD"
+  ],
+  "strategies": [
+    "ma_crossover",
+    "rsi_mean_reversion",
+    "breakout_a",
+    "breakout_b",
+    "hybrid"
+  ],
+  "timeframes": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "top_performers": {
+    "highest_total_return": {
+      "strategy": "ma_crossover",
+      "strategy_name": "Moving Average Crossover",
+      "ticker": "BTC-USD",
+      "timeframe_years": 20,
+      "value": 13629.3822
+    },
+    "highest_sharpe_ratio": {
+      "strategy": "rsi_mean_reversion",
+      "strategy_name": "RSI Mean Reversion",
+      "ticker": "QQQ",
+      "timeframe_years": 1,
+      "value": 1.7509977866241022
+    },
+    "lowest_max_drawdown": {
+      "strategy": "ma_crossover",
+      "strategy_name": "Moving Average Crossover",
+      "ticker": "BTC-USD",
+      "timeframe_years": 10,
+      "value": -69.2737
+    },
+    "highest_outperformance": {
+      "strategy": "breakout_b",
+      "strategy_name": "Breakout Strategy B \u2014 Filtered Breakout Swing",
+      "ticker": "BTC-USD",
+      "timeframe_years": 5,
+      "value": 121.7915
+    }
+  }
+}

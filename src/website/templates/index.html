@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+
+{# ---- Panel macro: renders one self-contained graph panel ---- #}
+{% macro graph_panel(n, defaults) %}
+<div class="graph-panel" id="graph-panel-{{ n }}" data-panel="{{ n }}">
+
+  <!-- Controls row -->
+  <div class="graph-panel-controls">
+    <div class="control-group">
+      <label for="select-strategy-{{ n }}">Strategy</label>
+      <select id="select-strategy-{{ n }}" name="strategy" data-panel="{{ n }}">
+        {% for strategy in strategies %}
+        <option value="{{ strategy.key }}"
+          {% if strategy.key == defaults.strategy %}selected{% endif %}>
+          {{ strategy.name }}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="select-asset-{{ n }}">Asset</label>
+      <select id="select-asset-{{ n }}" name="asset" data-panel="{{ n }}">
+        {% for asset in assets %}
+        <option value="{{ asset }}"
+          {% if asset == defaults.asset %}selected{% endif %}>
+          {{ asset }}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="select-timeframe-{{ n }}">Timeframe</label>
+      <select id="select-timeframe-{{ n }}" name="timeframe" data-panel="{{ n }}">
+        {% for tf in timeframes %}
+        <option value="{{ tf }}"
+          {% if tf == defaults.timeframe %}selected{% endif %}>
+          {{ tf }} year{% if tf != 1 %}s{% endif %}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <button class="btn-load" data-panel="{{ n }}" id="btn-load-{{ n }}">
+      Load Chart
+    </button>
+
+    <!-- Chart type tabs — hidden until a chart is loaded -->
+    <div class="chart-type-tabs" id="chart-tabs-{{ n }}" style="display:none;">
+      <button class="btn-chart-type active" data-panel="{{ n }}" data-type="equity"
+              id="tab-equity-{{ n }}">Equity</button>
+      <button class="btn-chart-type" data-panel="{{ n }}" data-type="signals"
+              id="tab-signals-{{ n }}" style="display:none;">Signals</button>
+      <button class="btn-chart-type" data-panel="{{ n }}" data-type="sleeves"
+              id="tab-sleeves-{{ n }}" style="display:none;">Sleeves</button>
+    </div>
+  </div><!-- /.graph-panel-controls -->
+
+  <!-- Panel label: shows what is currently loaded -->
+  <div class="panel-label" id="panel-label-{{ n }}" aria-live="polite"></div>
+
+  <!-- Chart body: chart area + stats sidebar -->
+  <div class="graph-panel-body">
+
+    <div class="chart-area" id="chart-area-{{ n }}">
+      <!-- Initial placeholder -->
+      <div class="chart-placeholder" id="chart-placeholder-{{ n }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.5" aria-hidden="true">
+          <polyline points="3 17 9 11 13 15 21 7"/>
+          <polyline points="3 21 21 21"/>
+          <polyline points="3 3 3 21"/>
+        </svg>
+        <p>Select options above and click <strong>Load Chart</strong>.</p>
+      </div>
+      <!-- Plotly containers (hidden until chart type selected) -->
+      <div id="plotly-equity-{{ n }}"  class="plotly-chart" style="display:none;width:100%;height:350px;"></div>
+      <div id="plotly-signals-{{ n }}" class="plotly-chart" style="display:none;width:100%;"></div>
+      <div id="plotly-sleeves-{{ n }}" class="plotly-chart" style="display:none;width:100%;"></div>
+    </div><!-- /#chart-area-n -->
+
+    <div class="stats-area" id="stats-area-{{ n }}">
+      <h4>Performance</h4>
+      <div class="stat-row">
+        <span class="stat-label">Total Return</span>
+        <span class="stat-value placeholder" id="stat-total-return-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Ann. Return</span>
+        <span class="stat-value placeholder" id="stat-ann-return-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Win Rate</span>
+        <span class="stat-value placeholder" id="stat-winrate-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Avg Win</span>
+        <span class="stat-value placeholder" id="stat-avg-win-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Avg Loss</span>
+        <span class="stat-value placeholder" id="stat-avg-loss-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Max Win</span>
+        <span class="stat-value placeholder" id="stat-max-win-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Max Loss</span>
+        <span class="stat-value placeholder" id="stat-max-loss-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Max Drawdown</span>
+        <span class="stat-value placeholder" id="stat-max-drawdown-{{ n }}">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Avg Drawdown</span>
+        <span class="stat-value placeholder" id="stat-avg-drawdown-{{ n }}">—</span>
+      </div>
+      <div class="stat-row stat-row-divider">
+        <span class="stat-label">Buy &amp; Hold</span>
+        <span class="stat-value placeholder" id="stat-benchmark-{{ n }}">—</span>
+      </div>
+      <div class="stat-row stat-row-highlight">
+        <span class="stat-label">vs Buy &amp; Hold</span>
+        <span class="stat-value placeholder" id="stat-outperformance-{{ n }}">—</span>
+      </div>
+    </div><!-- /#stats-area-n -->
+
+  </div><!-- /.graph-panel-body -->
+</div><!-- /#graph-panel-n -->
+{% endmacro %}
+
+
+{% block content %}
+
+<!-- ===== Hero ===== -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <h1 id="hero-heading">Strategy Backtesting Engine</h1>
+    <p>
+      Five quantitative trading strategies tested across equities and crypto
+      over 1, 5, 10, and 20-year horizons. Compare performance, drawdown, and
+      key metrics interactively.
+    </p>
+    <div class="hero-badges">
+      <span class="badge">5 Strategies</span>
+      <span class="badge">4 Anchor Assets</span>
+      <span class="badge">4 Timeframes</span>
+      <span class="badge">Daily OHLCV · yfinance</span>
+      <span class="badge">Long-Only · No Look-Ahead Bias</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Project Summary ===== -->
+<section id="summary" aria-labelledby="summary-heading">
+  <div class="container">
+    <div class="section-heading reveal">
+      <h2 id="summary-heading">Project Summary</h2>
+      <p>
+        A Python-based quantitative research engine that backtests five
+        systematic trading strategies across multiple markets and timeframes.
+      </p>
+    </div>
+
+    <div class="summary-grid reveal-stagger">
+      <div class="summary-card">
+        <h3>What it does</h3>
+        <p>
+          Fetches daily OHLCV data via yfinance, computes technical indicators,
+          generates entry/exit signals, simulates trades, and computes
+          performance metrics — all in a reproducible, modular pipeline.
+        </p>
+      </div>
+      <div class="summary-card">
+        <h3>Assets covered</h3>
+        <p>
+          SPY (S&amp;P 500), QQQ (Nasdaq-100), BTC-USD (Bitcoin), and IWM
+          (Russell 2000). Four anchor markets spanning equities and crypto
+          across different risk/return profiles.
+        </p>
+      </div>
+      <div class="summary-card">
+        <h3>Methodology</h3>
+        <p>
+          Long-only, daily bar execution. Signals generated at the end-of-day
+          close, executed at the same close. Fixed transaction cost of 0.1% per
+          side. Starting capital $10,000 per strategy.
+        </p>
+      </div>
+      <div class="summary-card">
+        <h3>Metrics reported</h3>
+        <p>
+          Total return, annualized return, volatility, Sharpe ratio, max
+          drawdown, win rate, trade count, average trade return, average holding
+          period, and outperformance vs buy-and-hold.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Trading Strategies ===== -->
+<section id="strategies" aria-labelledby="strategies-heading">
+  <div class="container">
+    <div class="section-heading reveal">
+      <h2 id="strategies-heading">Trading Strategies</h2>
+      <p>
+        Five locked strategies — parameters and rules are fixed and identical
+        across all assets and timeframes.
+      </p>
+    </div>
+
+    <div class="strategies-grid reveal-stagger">
+      {% for strategy in strategies %}
+      <div class="strategy-card" data-strategy-key="{{ strategy.key }}">
+        <span class="strategy-type-badge">{{ strategy.type }}</span>
+        <h3>{{ strategy.name }}</h3>
+        <p>{{ strategy.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Interactive Charts ===== -->
+<section id="charts" aria-labelledby="charts-heading">
+  <div class="container">
+    <div class="section-heading reveal">
+      <h2 id="charts-heading">Interactive Charts</h2>
+      <p>
+        Select a strategy, asset, and timeframe to view the equity curve and
+        performance summary. Switch layout to compare multiple panels side by side.
+      </p>
+    </div>
+
+    <!-- Layout mode toggle -->
+    <div class="layout-controls" role="group" aria-label="Chart layout">
+      <button class="btn-layout active" data-layout="single" id="btn-layout-single">Single</button>
+      <button class="btn-layout" data-layout="dual"   id="btn-layout-dual">Dual</button>
+      <button class="btn-layout" data-layout="quad"   id="btn-layout-quad">Quad</button>
+    </div>
+
+    <!-- All four graph panels -->
+    <div id="panels-container" class="panels-single">
+      {{ graph_panel(1, panel_defaults[0]) }}
+      {{ graph_panel(2, panel_defaults[1]) }}
+      {{ graph_panel(3, panel_defaults[2]) }}
+      {{ graph_panel(4, panel_defaults[3]) }}
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}
+
+
+{% block scripts %}
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+{% endblock %}

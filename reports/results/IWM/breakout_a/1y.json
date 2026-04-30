@@ -1,0 +1,2894 @@
+{
+  "metadata": {
+    "strategy": "breakout_a",
+    "ticker": "IWM",
+    "timeframe_years": 1,
+    "starting_capital": 10000.0,
+    "transaction_cost_pct": 0.001,
+    "generated_at": "2026-04-29T23:03:49.010362+00:00",
+    "data_start": "2025-04-24",
+    "data_end": "2026-04-28",
+    "n_bars": 254
+  },
+  "metrics": {
+    "total_return": 0.06832445713120669,
+    "annualized_return": 0.06755934198988345,
+    "volatility": 0.12788633892422824,
+    "sharpe_ratio": 0.5784177457901714,
+    "max_drawdown": -0.10062687475464062,
+    "avg_drawdown": -0.0462775054368602,
+    "win_rate": 0.5,
+    "trade_count": 6,
+    "avg_trade_return": 0.011522359195842888,
+    "avg_holding_period": 35.333333333333336,
+    "avg_win": 0.0449723190991121,
+    "avg_loss": -0.021927600707426317,
+    "max_win": 0.04949794466308743,
+    "max_loss": -0.04178573374607472,
+    "benchmark_return": 0.42525612854104655,
+    "outperformance": -0.35693167140983983
+  },
+  "equity": [
+    {
+      "date": "2025-04-24",
+      "portfolio": 10000.0,
+      "benchmark": 9990.00999
+    },
+    {
+      "date": "2025-04-25",
+      "portfolio": 10000.0,
+      "benchmark": 9993.09854
+    },
+    {
+      "date": "2025-04-28",
+      "portfolio": 10000.0,
+      "benchmark": 10035.311641
+    },
+    {
+      "date": "2025-04-29",
+      "portfolio": 10000.0,
+      "benchmark": 10094.512562
+    },
+    {
+      "date": "2025-04-30",
+      "portfolio": 10000.0,
+      "benchmark": 10031.193309
+    },
+    {
+      "date": "2025-05-01",
+      "portfolio": 10000.0,
+      "benchmark": 10093.482781
+    },
+    {
+      "date": "2025-05-02",
+      "portfolio": 10000.0,
+      "benchmark": 10320.504733
+    },
+    {
+      "date": "2025-05-05",
+      "portfolio": 10000.0,
+      "benchmark": 10241.22744
+    },
+    {
+      "date": "2025-05-06",
+      "portfolio": 10000.0,
+      "benchmark": 10129.51878
+    },
+    {
+      "date": "2025-05-07",
+      "portfolio": 10000.0,
+      "benchmark": 10162.979929
+    },
+    {
+      "date": "2025-05-08",
+      "portfolio": 10000.0,
+      "benchmark": 10356.540733
+    },
+    {
+      "date": "2025-05-09",
+      "portfolio": 10000.0,
+      "benchmark": 10337.493348
+    },
+    {
+      "date": "2025-05-12",
+      "portfolio": 10000.0,
+      "benchmark": 10700.93554
+    },
+    {
+      "date": "2025-05-13",
+      "portfolio": 10000.0,
+      "benchmark": 10740.058502
+    },
+    {
+      "date": "2025-05-14",
+      "portfolio": 10000.0,
+      "benchmark": 10644.82317
+    },
+    {
+      "date": "2025-05-15",
+      "portfolio": 10000.0,
+      "benchmark": 10714.320318
+    },
+    {
+      "date": "2025-05-16",
+      "portfolio": 10000.0,
+      "benchmark": 10802.864056
+    },
+    {
+      "date": "2025-05-19",
+      "portfolio": 10000.0,
+      "benchmark": 10757.562405
+    },
+    {
+      "date": "2025-05-20",
+      "portfolio": 10000.0,
+      "benchmark": 10763.224218
+    },
+    {
+      "date": "2025-05-21",
+      "portfolio": 10000.0,
+      "benchmark": 10461.043305
+    },
+    {
+      "date": "2025-05-22",
+      "portfolio": 10000.0,
+      "benchmark": 10460.528017
+    },
+    {
+      "date": "2025-05-23",
+      "portfolio": 10000.0,
+      "benchmark": 10427.581362
+    },
+    {
+      "date": "2025-05-27",
+      "portfolio": 10000.0,
+      "benchmark": 10692.182795
+    },
+    {
+      "date": "2025-05-28",
+      "portfolio": 10000.0,
+      "benchmark": 10579.444353
+    },
+    {
+      "date": "2025-05-29",
+      "portfolio": 10000.0,
+      "benchmark": 10610.845939
+    },
+    {
+      "date": "2025-05-30",
+      "portfolio": 10000.0,
+      "benchmark": 10556.794719
+    },
+    {
+      "date": "2025-06-02",
+      "portfolio": 10000.0,
+      "benchmark": 10589.74058
+    },
+    {
+      "date": "2025-06-03",
+      "portfolio": 10000.0,
+      "benchmark": 10760.650956
+    },
+    {
+      "date": "2025-06-04",
+      "portfolio": 10000.0,
+      "benchmark": 10730.279151
+    },
+    {
+      "date": "2025-06-05",
+      "portfolio": 10000.0,
+      "benchmark": 10734.910389
+    },
+    {
+      "date": "2025-06-06",
+      "portfolio": 9990.00999,
+      "benchmark": 10908.394821
+    },
+    {
+      "date": "2025-06-09",
+      "portfolio": 10058.842724,
+      "benchmark": 10983.55537
+    },
+    {
+      "date": "2025-06-10",
+      "portfolio": 10113.058754,
+      "benchmark": 11042.755498
+    },
+    {
+      "date": "2025-06-11",
+      "portfolio": 10071.571079,
+      "benchmark": 10997.453847
+    },
+    {
+      "date": "2025-06-12",
+      "portfolio": 10031.497665,
+      "benchmark": 10953.696472
+    },
+    {
+      "date": "2025-06-13",
+      "portfolio": 9848.103919,
+      "benchmark": 10753.443279
+    },
+    {
+      "date": "2025-06-16",
+      "portfolio": 9964.212257,
+      "benchmark": 10880.225495
+    },
+    {
+      "date": "2025-06-17",
+      "portfolio": 9859.260953,
+      "benchmark": 10765.625983
+    },
+    {
+      "date": "2025-06-18",
+      "portfolio": 9911.263609,
+      "benchmark": 10822.40926
+    },
+    {
+      "date": "2025-06-20",
+      "portfolio": 9890.462692,
+      "benchmark": 10799.696108
+    },
+    {
+      "date": "2025-06-23",
+      "portfolio": 10011.487862,
+      "benchmark": 10931.847161
+    },
+    {
+      "date": "2025-06-24",
+      "portfolio": 10139.130614,
+      "benchmark": 11071.224152
+    },
+    {
+      "date": "2025-06-25",
+      "portfolio": 10020.943419,
+      "benchmark": 10942.171971
+    },
+    {
+      "date": "2025-06-26",
+      "portfolio": 10183.569697,
+      "benchmark": 11119.748534
+    },
+    {
+      "date": "2025-06-27",
+      "portfolio": 10186.878124,
+      "benchmark": 11123.361106
+    },
+    {
+      "date": "2025-06-30",
+      "portfolio": 10201.534092,
+      "benchmark": 11139.364402
+    },
+    {
+      "date": "2025-07-01",
+      "portfolio": 10306.485396,
+      "benchmark": 11253.963914
+    },
+    {
+      "date": "2025-07-02",
+      "portfolio": 10449.256021,
+      "benchmark": 11409.859488
+    },
+    {
+      "date": "2025-07-03",
+      "portfolio": 10546.170393,
+      "benchmark": 11515.683229
+    },
+    {
+      "date": "2025-07-07",
+      "portfolio": 10387.798535,
+      "benchmark": 11342.752195
+    },
+    {
+      "date": "2025-07-08",
+      "portfolio": 10459.657571,
+      "benchmark": 11421.217255
+    },
+    {
+      "date": "2025-07-09",
+      "portfolio": 10573.117713,
+      "benchmark": 11545.107825
+    },
+    {
+      "date": "2025-07-10",
+      "portfolio": 10627.484259,
+      "benchmark": 11604.472305
+    },
+    {
+      "date": "2025-07-11",
+      "portfolio": 10480.93112,
+      "benchmark": 11444.446489
+    },
+    {
+      "date": "2025-07-14",
+      "portfolio": 10551.371531,
+      "benchmark": 11521.36251
+    },
+    {
+      "date": "2025-07-15",
+      "portfolio": 10344.778804,
+      "benchmark": 11295.777646
+    },
+    {
+      "date": "2025-07-16",
+      "portfolio": 10448.784116,
+      "benchmark": 11409.3442
+    },
+    {
+      "date": "2025-07-17",
+      "portfolio": 10585.882425,
+      "benchmark": 11559.046
+    },
+    {
+      "date": "2025-07-18",
+      "portfolio": 10510.714235,
+      "benchmark": 11476.967575
+    },
+    {
+      "date": "2025-07-21",
+      "portfolio": 10468.166409,
+      "benchmark": 11430.508313
+    },
+    {
+      "date": "2025-07-22",
+      "portfolio": 10555.153318,
+      "benchmark": 11525.491957
+    },
+    {
+      "date": "2025-07-23",
+      "portfolio": 10716.361698,
+      "benchmark": 11701.520275
+    },
+    {
+      "date": "2025-07-24",
+      "portfolio": 10568.390662,
+      "benchmark": 11539.946214
+    },
+    {
+      "date": "2025-07-25",
+      "portfolio": 10607.629334,
+      "benchmark": 11582.79211
+    },
+    {
+      "date": "2025-07-28",
+      "portfolio": 10595.337982,
+      "benchmark": 11569.37081
+    },
+    {
+      "date": "2025-07-29",
+      "portfolio": 10527.734092,
+      "benchmark": 11495.552073
+    },
+    {
+      "date": "2025-07-30",
+      "portfolio": 10474.312812,
+      "benchmark": 11437.219757
+    },
+    {
+      "date": "2025-07-31",
+      "portfolio": 10361.353671,
+      "benchmark": 11325.201448
+    },
+    {
+      "date": "2025-08-01",
+      "portfolio": 10361.353671,
+      "benchmark": 11094.453385
+    },
+    {
+      "date": "2025-08-04",
+      "portfolio": 10361.353671,
+      "benchmark": 11342.752195
+    },
+    {
+      "date": "2025-08-05",
+      "portfolio": 10361.353671,
+      "benchmark": 11400.569224
+    },
+    {
+      "date": "2025-08-06",
+      "portfolio": 10361.353671,
+      "benchmark": 11385.598091
+    },
+    {
+      "date": "2025-08-07",
+      "portfolio": 10361.353671,
+      "benchmark": 11348.430682
+    },
+    {
+      "date": "2025-08-08",
+      "portfolio": 10361.353671,
+      "benchmark": 11373.209748
+    },
+    {
+      "date": "2025-08-11",
+      "portfolio": 10361.353671,
+      "benchmark": 11370.627752
+    },
+    {
+      "date": "2025-08-12",
+      "portfolio": 10351.002668,
+      "benchmark": 11708.231719
+    },
+    {
+      "date": "2025-08-13",
+      "portfolio": 10552.263256,
+      "benchmark": 11935.881703
+    },
+    {
+      "date": "2025-08-14",
+      "portfolio": 10416.264269,
+      "benchmark": 11782.050456
+    },
+    {
+      "date": "2025-08-15",
+      "portfolio": 10365.606403,
+      "benchmark": 11724.750303
+    },
+    {
+      "date": "2025-08-18",
+      "portfolio": 10403.485563,
+      "benchmark": 11767.596199
+    },
+    {
+      "date": "2025-08-19",
+      "portfolio": 10323.620228,
+      "benchmark": 11677.258878
+    },
+    {
+      "date": "2025-08-20",
+      "portfolio": 10287.109839,
+      "benchmark": 11635.961227
+    },
+    {
+      "date": "2025-08-21",
+      "portfolio": 10312.667252,
+      "benchmark": 11664.869742
+    },
+    {
+      "date": "2025-08-22",
+      "portfolio": 10717.014157,
+      "benchmark": 12122.234831
+    },
+    {
+      "date": "2025-08-25",
+      "portfolio": 10604.289191,
+      "benchmark": 11994.729307
+    },
+    {
+      "date": "2025-08-26",
+      "portfolio": 10691.913001,
+      "benchmark": 12093.842398
+    },
+    {
+      "date": "2025-08-27",
+      "portfolio": 10767.671321,
+      "benchmark": 12179.53419
+    },
+    {
+      "date": "2025-08-28",
+      "portfolio": 10780.450027,
+      "benchmark": 12193.988447
+    },
+    {
+      "date": "2025-08-29",
+      "portfolio": 10732.529703,
+      "benchmark": 12139.784784
+    },
+    {
+      "date": "2025-09-02",
+      "portfolio": 10674.571023,
+      "benchmark": 12074.22653
+    },
+    {
+      "date": "2025-09-03",
+      "portfolio": 10664.073602,
+      "benchmark": 12062.352682
+    },
+    {
+      "date": "2025-09-04",
+      "portfolio": 10797.335749,
+      "benchmark": 12213.088233
+    },
+    {
+      "date": "2025-09-05",
+      "portfolio": 10851.188116,
+      "benchmark": 12274.001752
+    },
+    {
+      "date": "2025-09-08",
+      "portfolio": 10873.093366,
+      "benchmark": 12298.779231
+    },
+    {
+      "date": "2025-09-09",
+      "portfolio": 10809.201239,
+      "benchmark": 12226.509533
+    },
+    {
+      "date": "2025-09-10",
+      "portfolio": 10790.033531,
+      "benchmark": 12204.828544
+    },
+    {
+      "date": "2025-09-11",
+      "portfolio": 10989.46909,
+      "benchmark": 12430.414202
+    },
+    {
+      "date": "2025-09-12",
+      "portfolio": 10877.201084,
+      "benchmark": 12303.425554
+    },
+    {
+      "date": "2025-09-15",
+      "portfolio": 10923.294274,
+      "benchmark": 12355.562508
+    },
+    {
+      "date": "2025-09-16",
+      "portfolio": 10905.30792,
+      "benchmark": 12335.217774
+    },
+    {
+      "date": "2025-09-17",
+      "portfolio": 10933.225936,
+      "benchmark": 12366.796415
+    },
+    {
+      "date": "2025-09-18",
+      "portfolio": 11205.538377,
+      "benchmark": 12674.81461
+    },
+    {
+      "date": "2025-09-19",
+      "portfolio": 11120.411346,
+      "benchmark": 12578.525677
+    },
+    {
+      "date": "2025-09-22",
+      "portfolio": 11184.942935,
+      "benchmark": 12651.518683
+    },
+    {
+      "date": "2025-09-23",
+      "portfolio": 11159.770884,
+      "benchmark": 12623.046059
+    },
+    {
+      "date": "2025-09-24",
+      "portfolio": 11057.254143,
+      "benchmark": 12507.087267
+    },
+    {
+      "date": "2025-09-25",
+      "portfolio": 10951.532372,
+      "benchmark": 12387.503201
+    },
+    {
+      "date": "2025-09-26",
+      "portfolio": 11045.354258,
+      "benchmark": 12493.627063
+    },
+    {
+      "date": "2025-09-29",
+      "portfolio": 11058.168763,
+      "benchmark": 12508.121813
+    },
+    {
+      "date": "2025-09-30",
+      "portfolio": 11073.729935,
+      "benchmark": 12525.723374
+    },
+    {
+      "date": "2025-10-01",
+      "portfolio": 11097.985962,
+      "benchmark": 12553.159865
+    },
+    {
+      "date": "2025-10-02",
+      "portfolio": 11168.009482,
+      "benchmark": 12632.364906
+    },
+    {
+      "date": "2025-10-03",
+      "portfolio": 11250.846805,
+      "benchmark": 12726.063904
+    },
+    {
+      "date": "2025-10-06",
+      "portfolio": 11295.698274,
+      "benchmark": 12776.796321
+    },
+    {
+      "date": "2025-10-07",
+      "portfolio": 11174.416734,
+      "benchmark": 12639.612281
+    },
+    {
+      "date": "2025-10-08",
+      "portfolio": 11291.580028,
+      "benchmark": 12772.138089
+    },
+    {
+      "date": "2025-10-09",
+      "portfolio": 11218.810543,
+      "benchmark": 12689.827029
+    },
+    {
+      "date": "2025-10-10",
+      "portfolio": 10871.998953,
+      "benchmark": 12309.851168
+    },
+    {
+      "date": "2025-10-13",
+      "portfolio": 10871.998953,
+      "benchmark": 12652.554816
+    },
+    {
+      "date": "2025-10-14",
+      "portfolio": 10871.998953,
+      "benchmark": 12833.223899
+    },
+    {
+      "date": "2025-10-15",
+      "portfolio": 10861.137815,
+      "benchmark": 12959.019208
+    },
+    {
+      "date": "2025-10-16",
+      "portfolio": 10632.486968,
+      "benchmark": 12686.203342
+    },
+    {
+      "date": "2025-10-17",
+      "portfolio": 10560.897704,
+      "benchmark": 12600.786265
+    },
+    {
+      "date": "2025-10-20",
+      "portfolio": 10766.987505,
+      "benchmark": 12846.68331
+    },
+    {
+      "date": "2025-10-21",
+      "portfolio": 10716.225153,
+      "benchmark": 12786.115963
+    },
+    {
+      "date": "2025-10-22",
+      "portfolio": 10557.86064,
+      "benchmark": 12597.162577
+    },
+    {
+      "date": "2025-10-23",
+      "portfolio": 10691.493445,
+      "benchmark": 12756.607206
+    },
+    {
+      "date": "2025-10-24",
+      "portfolio": 10822.089186,
+      "benchmark": 12912.428147
+    },
+    {
+      "date": "2025-10-27",
+      "portfolio": 10859.836216,
+      "benchmark": 12957.466199
+    },
+    {
+      "date": "2025-10-28",
+      "portfolio": 10801.697472,
+      "benchmark": 12888.097674
+    },
+    {
+      "date": "2025-10-29",
+      "portfolio": 10709.715828,
+      "benchmark": 12778.34933
+    },
+    {
+      "date": "2025-10-30",
+      "portfolio": 10623.375776,
+      "benchmark": 12675.33228
+    },
+    {
+      "date": "2025-10-31",
+      "portfolio": 10683.249986,
+      "benchmark": 12746.771483
+    },
+    {
+      "date": "2025-11-03",
+      "portfolio": 10648.973886,
+      "benchmark": 12705.874788
+    },
+    {
+      "date": "2025-11-04",
+      "portfolio": 10465.011929,
+      "benchmark": 12486.379688
+    },
+    {
+      "date": "2025-11-05",
+      "portfolio": 10615.999385,
+      "benchmark": 12666.531102
+    },
+    {
+      "date": "2025-11-06",
+      "portfolio": 10417.704499,
+      "benchmark": 12442.376976
+    },
+    {
+      "date": "2025-11-07",
+      "portfolio": 10417.704499,
+      "benchmark": 12507.604937
+    },
+    {
+      "date": "2025-11-10",
+      "portfolio": 10417.704499,
+      "benchmark": 12632.882576
+    },
+    {
+      "date": "2025-11-11",
+      "portfolio": 10417.704499,
+      "benchmark": 12643.754432
+    },
+    {
+      "date": "2025-11-12",
+      "portfolio": 10417.704499,
+      "benchmark": 12612.692666
+    },
+    {
+      "date": "2025-11-13",
+      "portfolio": 10417.704499,
+      "benchmark": 12258.083411
+    },
+    {
+      "date": "2025-11-14",
+      "portfolio": 10417.704499,
+      "benchmark": 12293.803409
+    },
+    {
+      "date": "2025-11-17",
+      "portfolio": 10417.704499,
+      "benchmark": 12049.459373
+    },
+    {
+      "date": "2025-11-18",
+      "portfolio": 10417.704499,
+      "benchmark": 12086.215505
+    },
+    {
+      "date": "2025-11-19",
+      "portfolio": 10417.704499,
+      "benchmark": 12084.143239
+    },
+    {
+      "date": "2025-11-20",
+      "portfolio": 10417.704499,
+      "benchmark": 11860.507576
+    },
+    {
+      "date": "2025-11-21",
+      "portfolio": 10417.704499,
+      "benchmark": 12196.480725
+    },
+    {
+      "date": "2025-11-24",
+      "portfolio": 10417.704499,
+      "benchmark": 12419.081842
+    },
+    {
+      "date": "2025-11-25",
+      "portfolio": 10417.704499,
+      "benchmark": 12689.827029
+    },
+    {
+      "date": "2025-11-26",
+      "portfolio": 10417.704499,
+      "benchmark": 12802.162927
+    },
+    {
+      "date": "2025-11-28",
+      "portfolio": 10417.704499,
+      "benchmark": 12877.226612
+    },
+    {
+      "date": "2025-12-01",
+      "portfolio": 10417.704499,
+      "benchmark": 12715.192841
+    },
+    {
+      "date": "2025-12-02",
+      "portfolio": 10417.704499,
+      "benchmark": 12691.897708
+    },
+    {
+      "date": "2025-12-03",
+      "portfolio": 10407.297202,
+      "benchmark": 12922.78154
+    },
+    {
+      "date": "2025-12-04",
+      "portfolio": 10498.600798,
+      "benchmark": 13036.153571
+    },
+    {
+      "date": "2025-12-05",
+      "portfolio": 10454.825381,
+      "benchmark": 12981.797465
+    },
+    {
+      "date": "2025-12-08",
+      "portfolio": 10458.993768,
+      "benchmark": 12986.973368
+    },
+    {
+      "date": "2025-12-09",
+      "portfolio": 10480.673345,
+      "benchmark": 13013.892983
+    },
+    {
+      "date": "2025-12-10",
+      "portfolio": 10623.255965,
+      "benchmark": 13190.938379
+    },
+    {
+      "date": "2025-12-11",
+      "portfolio": 10747.912412,
+      "benchmark": 13345.724774
+    },
+    {
+      "date": "2025-12-12",
+      "portfolio": 10583.233312,
+      "benchmark": 13141.242094
+    },
+    {
+      "date": "2025-12-15",
+      "portfolio": 10503.186087,
+      "benchmark": 13041.847143
+    },
+    {
+      "date": "2025-12-16",
+      "portfolio": 10453.491549,
+      "benchmark": 12980.14124
+    },
+    {
+      "date": "2025-12-17",
+      "portfolio": 10342.222025,
+      "benchmark": 12841.977439
+    },
+    {
+      "date": "2025-12-18",
+      "portfolio": 10403.713246,
+      "benchmark": 12918.331327
+    },
+    {
+      "date": "2025-12-19",
+      "portfolio": 10490.720571,
+      "benchmark": 13026.368662
+    },
+    {
+      "date": "2025-12-22",
+      "portfolio": 10607.429011,
+      "benchmark": 13171.285988
+    },
+    {
+      "date": "2025-12-23",
+      "portfolio": 10544.682606,
+      "benchmark": 13093.373532
+    },
+    {
+      "date": "2025-12-24",
+      "portfolio": 10571.036352,
+      "benchmark": 13126.097081
+    },
+    {
+      "date": "2025-12-26",
+      "portfolio": 10517.074316,
+      "benchmark": 13059.092211
+    },
+    {
+      "date": "2025-12-29",
+      "portfolio": 10452.655186,
+      "benchmark": 12979.102725
+    },
+    {
+      "date": "2025-12-30",
+      "portfolio": 10375.267953,
+      "benchmark": 12883.010697
+    },
+    {
+      "date": "2025-12-31",
+      "portfolio": 10286.747952,
+      "benchmark": 12785.880947
+    },
+    {
+      "date": "2026-01-02",
+      "portfolio": 10286.747952,
+      "benchmark": 12921.966924
+    },
+    {
+      "date": "2026-01-05",
+      "portfolio": 10286.747952,
+      "benchmark": 13127.135596
+    },
+    {
+      "date": "2026-01-06",
+      "portfolio": 10286.747952,
+      "benchmark": 13301.138492
+    },
+    {
+      "date": "2026-01-07",
+      "portfolio": 10286.747952,
+      "benchmark": 13269.974304
+    },
+    {
+      "date": "2026-01-08",
+      "portfolio": 10276.471481,
+      "benchmark": 13414.889248
+    },
+    {
+      "date": "2026-01-09",
+      "portfolio": 10354.46012,
+      "benchmark": 13516.695492
+    },
+    {
+      "date": "2026-01-12",
+      "portfolio": 10404.992409,
+      "benchmark": 13582.660259
+    },
+    {
+      "date": "2026-01-13",
+      "portfolio": 10399.024536,
+      "benchmark": 13574.869808
+    },
+    {
+      "date": "2026-01-14",
+      "portfolio": 10472.237417,
+      "benchmark": 13670.441785
+    },
+    {
+      "date": "2026-01-15",
+      "portfolio": 10564.549681,
+      "benchmark": 13790.946065
+    },
+    {
+      "date": "2026-01-16",
+      "portfolio": 10574.497758,
+      "benchmark": 13803.932268
+    },
+    {
+      "date": "2026-01-20",
+      "portfolio": 10447.965716,
+      "benchmark": 13638.757545
+    },
+    {
+      "date": "2026-01-21",
+      "portfolio": 10655.26962,
+      "benchmark": 13909.371727
+    },
+    {
+      "date": "2026-01-22",
+      "portfolio": 10734.849368,
+      "benchmark": 14013.255001
+    },
+    {
+      "date": "2026-01-23",
+      "portfolio": 10536.696769,
+      "benchmark": 13754.586919
+    },
+    {
+      "date": "2026-01-26",
+      "portfolio": 10503.671539,
+      "benchmark": 13711.475837
+    },
+    {
+      "date": "2026-01-27",
+      "portfolio": 10533.514553,
+      "benchmark": 13750.432858
+    },
+    {
+      "date": "2026-01-28",
+      "portfolio": 10476.614182,
+      "benchmark": 13676.155206
+    },
+    {
+      "date": "2026-01-29",
+      "portfolio": 10479.399838,
+      "benchmark": 13679.791597
+    },
+    {
+      "date": "2026-01-30",
+      "portfolio": 10331.38175,
+      "benchmark": 13486.569025
+    },
+    {
+      "date": "2026-02-02",
+      "portfolio": 10432.049766,
+      "benchmark": 13617.98089
+    },
+    {
+      "date": "2026-02-03",
+      "portfolio": 10455.92369,
+      "benchmark": 13649.145872
+    },
+    {
+      "date": "2026-02-04",
+      "portfolio": 10365.999305,
+      "benchmark": 13531.758725
+    },
+    {
+      "date": "2026-02-05",
+      "portfolio": 10169.206506,
+      "benchmark": 13288.153877
+    },
+    {
+      "date": "2026-02-06",
+      "portfolio": 10169.206506,
+      "benchmark": 13765.494504
+    },
+    {
+      "date": "2026-02-09",
+      "portfolio": 10169.206506,
+      "benchmark": 13862.104996
+    },
+    {
+      "date": "2026-02-10",
+      "portfolio": 10169.206506,
+      "benchmark": 13824.707335
+    },
+    {
+      "date": "2026-02-11",
+      "portfolio": 10169.206506,
+      "benchmark": 13761.859701
+    },
+    {
+      "date": "2026-02-12",
+      "portfolio": 10169.206506,
+      "benchmark": 13480.857192
+    },
+    {
+      "date": "2026-02-13",
+      "portfolio": 10169.206506,
+      "benchmark": 13658.495684
+    },
+    {
+      "date": "2026-02-17",
+      "portfolio": 10169.206506,
+      "benchmark": 13662.651333
+    },
+    {
+      "date": "2026-02-18",
+      "portfolio": 10169.206506,
+      "benchmark": 13711.995094
+    },
+    {
+      "date": "2026-02-19",
+      "portfolio": 10169.206506,
+      "benchmark": 13743.679334
+    },
+    {
+      "date": "2026-02-20",
+      "portfolio": 10169.206506,
+      "benchmark": 13744.198591
+    },
+    {
+      "date": "2026-02-23",
+      "portfolio": 10169.206506,
+      "benchmark": 13530.199365
+    },
+    {
+      "date": "2026-02-24",
+      "portfolio": 10169.206506,
+      "benchmark": 13677.712979
+    },
+    {
+      "date": "2026-02-25",
+      "portfolio": 10169.206506,
+      "benchmark": 13742.639231
+    },
+    {
+      "date": "2026-02-26",
+      "portfolio": 10169.206506,
+      "benchmark": 13815.87678
+    },
+    {
+      "date": "2026-02-27",
+      "portfolio": 10169.206506,
+      "benchmark": 13577.986941
+    },
+    {
+      "date": "2026-03-02",
+      "portfolio": 10169.206506,
+      "benchmark": 13702.645282
+    },
+    {
+      "date": "2026-03-03",
+      "portfolio": 10169.206506,
+      "benchmark": 13465.273112
+    },
+    {
+      "date": "2026-03-04",
+      "portfolio": 10169.206506,
+      "benchmark": 13596.16572
+    },
+    {
+      "date": "2026-03-05",
+      "portfolio": 10169.206506,
+      "benchmark": 13336.459123
+    },
+    {
+      "date": "2026-03-06",
+      "portfolio": 10169.206506,
+      "benchmark": 13031.56362
+    },
+    {
+      "date": "2026-03-09",
+      "portfolio": 10169.206506,
+      "benchmark": 13173.363018
+    },
+    {
+      "date": "2026-03-10",
+      "portfolio": 10169.206506,
+      "benchmark": 13159.858351
+    },
+    {
+      "date": "2026-03-11",
+      "portfolio": 10169.206506,
+      "benchmark": 13133.369069
+    },
+    {
+      "date": "2026-03-12",
+      "portfolio": 10169.206506,
+      "benchmark": 12850.807993
+    },
+    {
+      "date": "2026-03-13",
+      "portfolio": 10169.206506,
+      "benchmark": 12808.215375
+    },
+    {
+      "date": "2026-03-16",
+      "portfolio": 10169.206506,
+      "benchmark": 12929.238912
+    },
+    {
+      "date": "2026-03-17",
+      "portfolio": 10169.206506,
+      "benchmark": 13011.036272
+    },
+    {
+      "date": "2026-03-18",
+      "portfolio": 10169.206506,
+      "benchmark": 12801.340373
+    },
+    {
+      "date": "2026-03-19",
+      "portfolio": 10169.206506,
+      "benchmark": 12885.114722
+    },
+    {
+      "date": "2026-03-20",
+      "portfolio": 10169.206506,
+      "benchmark": 12603.61201
+    },
+    {
+      "date": "2026-03-23",
+      "portfolio": 10169.206506,
+      "benchmark": 12875.748236
+    },
+    {
+      "date": "2026-03-24",
+      "portfolio": 10169.206506,
+      "benchmark": 12944.953203
+    },
+    {
+      "date": "2026-03-25",
+      "portfolio": 10169.206506,
+      "benchmark": 13103.13621
+    },
+    {
+      "date": "2026-03-26",
+      "portfolio": 10169.206506,
+      "benchmark": 12875.228185
+    },
+    {
+      "date": "2026-03-27",
+      "portfolio": 10169.206506,
+      "benchmark": 12649.401954
+    },
+    {
+      "date": "2026-03-30",
+      "portfolio": 10169.206506,
+      "benchmark": 12467.803923
+    },
+    {
+      "date": "2026-03-31",
+      "portfolio": 10169.206506,
+      "benchmark": 12904.366951
+    },
+    {
+      "date": "2026-04-01",
+      "portfolio": 10169.206506,
+      "benchmark": 12985.539455
+    },
+    {
+      "date": "2026-04-02",
+      "portfolio": 10169.206506,
+      "benchmark": 13075.557599
+    },
+    {
+      "date": "2026-04-06",
+      "portfolio": 10169.206506,
+      "benchmark": 13131.234079
+    },
+    {
+      "date": "2026-04-07",
+      "portfolio": 10169.206506,
+      "benchmark": 13159.852794
+    },
+    {
+      "date": "2026-04-08",
+      "portfolio": 10159.047458,
+      "benchmark": 13553.227724
+    },
+    {
+      "date": "2026-04-09",
+      "portfolio": 10217.161181,
+      "benchmark": 13630.757485
+    },
+    {
+      "date": "2026-04-10",
+      "portfolio": 10191.419221,
+      "benchmark": 13596.415027
+    },
+    {
+      "date": "2026-04-13",
+      "portfolio": 10338.460366,
+      "benchmark": 13792.583235
+    },
+    {
+      "date": "2026-04-14",
+      "portfolio": 10480.820181,
+      "benchmark": 13982.50606
+    },
+    {
+      "date": "2026-04-15",
+      "portfolio": 10506.95255,
+      "benchmark": 14017.369363
+    },
+    {
+      "date": "2026-04-16",
+      "portfolio": 10528.793998,
+      "benchmark": 14046.508129
+    },
+    {
+      "date": "2026-04-17",
+      "portfolio": 10756.179531,
+      "benchmark": 14349.864121
+    },
+    {
+      "date": "2026-04-20",
+      "portfolio": 10817.414141,
+      "benchmark": 14431.55747
+    },
+    {
+      "date": "2026-04-21",
+      "portfolio": 10706.646462,
+      "benchmark": 14283.781846
+    },
+    {
+      "date": "2026-04-22",
+      "portfolio": 10783.481936,
+      "benchmark": 14386.288372
+    },
+    {
+      "date": "2026-04-23",
+      "portfolio": 10746.038434,
+      "benchmark": 14336.334841
+    },
+    {
+      "date": "2026-04-24",
+      "portfolio": 10790.111737,
+      "benchmark": 14395.133219
+    },
+    {
+      "date": "2026-04-27",
+      "portfolio": 10809.223896,
+      "benchmark": 14420.63083
+    },
+    {
+      "date": "2026-04-28",
+      "portfolio": 10683.244571,
+      "benchmark": 14252.561285
+    }
+  ],
+  "trade_log": [
+    {
+      "entry_date": "2025-06-06",
+      "entry_price": 209.64080810546875,
+      "exit_date": "2025-07-31",
+      "exit_price": 217.651123046875,
+      "shares": 47.652983597468726,
+      "pnl": 361.3536711268571,
+      "return_pct": 0.03613536711268571,
+      "holding_days": 55
+    },
+    {
+      "entry_date": "2025-08-12",
+      "entry_price": 225.01231384277344,
+      "exit_date": "2025-10-10",
+      "exit_price": 236.5744171142578,
+      "shares": 46.001938701413145,
+      "pnl": 510.6452814513632,
+      "return_pct": 0.04928364552156316,
+      "holding_days": 59
+    },
+    {
+      "entry_date": "2025-10-15",
+      "entry_price": 249.05032348632812,
+      "exit_date": "2025-11-06",
+      "exit_price": 239.121337890625,
+      "shares": 43.61021364166062,
+      "pnl": -454.29445352003677,
+      "return_pct": -0.04178573374607472,
+      "holding_days": 22
+    },
+    {
+      "entry_date": "2025-12-03",
+      "entry_price": 248.35389709472656,
+      "exit_date": "2025-12-31",
+      "exit_price": 245.722900390625,
+      "shares": 41.90510929605748,
+      "pnl": -130.95654664221001,
+      "return_pct": -0.012570576047155993,
+      "holding_days": 28
+    },
+    {
+      "entry_date": "2026-01-08",
+      "entry_price": 257.8113708496094,
+      "exit_date": "2026-02-05",
+      "exit_price": 255.375732421875,
+      "shares": 39.86042759506397,
+      "pnl": -117.54144656913377,
+      "return_pct": -0.011426492329048236,
+      "holding_days": 28
+    },
+    {
+      "entry_date": "2026-04-08",
+      "entry_price": 260.4700012207031,
+      "exit_date": "2026-04-28",
+      "exit_price": 273.9100036621094,
+      "shares": 39.00275429330698,
+      "pnl": 503.35482089391553,
+      "return_pct": 0.04949794466308743,
+      "holding_days": 20
+    }
+  ],
+  "chart_data": {
+    "type": "breakout_a",
+    "timeseries": [
+      {
+        "date": "2025-04-24",
+        "close": 191.991,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-04-25",
+        "close": 192.0504,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-04-28",
+        "close": 192.8616,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-04-29",
+        "close": 193.9994,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-04-30",
+        "close": 192.7825,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-01",
+        "close": 193.9796,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-02",
+        "close": 198.3426,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-05",
+        "close": 196.819,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-06",
+        "close": 194.6721,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-07",
+        "close": 195.3152,
+        "rolling_high_20": null,
+        "rolling_low_10": null
+      },
+      {
+        "date": "2025-05-08",
+        "close": 199.0351,
+        "rolling_high_20": null,
+        "rolling_low_10": 187.8655
+      },
+      {
+        "date": "2025-05-09",
+        "close": 198.6691,
+        "rolling_high_20": null,
+        "rolling_low_10": 188.6866
+      },
+      {
+        "date": "2025-05-12",
+        "close": 205.6538,
+        "rolling_high_20": null,
+        "rolling_low_10": 188.6866
+      },
+      {
+        "date": "2025-05-13",
+        "close": 206.4057,
+        "rolling_high_20": null,
+        "rolling_low_10": 188.6866
+      },
+      {
+        "date": "2025-05-14",
+        "close": 204.5754,
+        "rolling_high_20": null,
+        "rolling_low_10": 188.6866
+      },
+      {
+        "date": "2025-05-15",
+        "close": 205.911,
+        "rolling_high_20": null,
+        "rolling_low_10": 191.6744
+      },
+      {
+        "date": "2025-05-16",
+        "close": 207.6127,
+        "rolling_high_20": null,
+        "rolling_low_10": 193.5542
+      },
+      {
+        "date": "2025-05-19",
+        "close": 206.7421,
+        "rolling_high_20": null,
+        "rolling_low_10": 193.5542
+      },
+      {
+        "date": "2025-05-20",
+        "close": 206.8509,
+        "rolling_high_20": null,
+        "rolling_low_10": 193.5542
+      },
+      {
+        "date": "2025-05-21",
+        "close": 201.0435,
+        "rolling_high_20": null,
+        "rolling_low_10": 193.9499
+      },
+      {
+        "date": "2025-05-22",
+        "close": 201.0336,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 196.1462
+      },
+      {
+        "date": "2025-05-23",
+        "close": 200.4004,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.8281
+      },
+      {
+        "date": "2025-05-27",
+        "close": 205.4856,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-05-28",
+        "close": 203.3189,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-05-29",
+        "close": 203.9224,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-05-30",
+        "close": 202.8837,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-02",
+        "close": 203.5168,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-03",
+        "close": 206.8014,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-04",
+        "close": 206.2177,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-05",
+        "close": 206.3067,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-06",
+        "close": 209.6408,
+        "rolling_high_20": 207.8897,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-09",
+        "close": 211.0853,
+        "rolling_high_20": 209.8684,
+        "rolling_low_10": 197.5214
+      },
+      {
+        "date": "2025-06-10",
+        "close": 212.223,
+        "rolling_high_20": 211.9955,
+        "rolling_low_10": 200.5092
+      },
+      {
+        "date": "2025-06-11",
+        "close": 211.3524,
+        "rolling_high_20": 213.1332,
+        "rolling_low_10": 200.5092
+      },
+      {
+        "date": "2025-06-12",
+        "close": 210.5114,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 200.5092
+      },
+      {
+        "date": "2025-06-13",
+        "close": 206.6629,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 200.5092
+      },
+      {
+        "date": "2025-06-16",
+        "close": 209.0994,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 200.5092
+      },
+      {
+        "date": "2025-06-17",
+        "close": 206.897,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 203.3585
+      },
+      {
+        "date": "2025-06-18",
+        "close": 207.9883,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 204.793
+      },
+      {
+        "date": "2025-06-20",
+        "close": 207.5518,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 204.793
+      },
+      {
+        "date": "2025-06-23",
+        "close": 210.0915,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 206.0
+      },
+      {
+        "date": "2025-06-24",
+        "close": 212.7701,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-06-25",
+        "close": 210.2899,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-06-26",
+        "close": 213.7027,
+        "rolling_high_20": 213.6278,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-06-27",
+        "close": 213.7721,
+        "rolling_high_20": 213.8416,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-06-30",
+        "close": 214.0797,
+        "rolling_high_20": 215.6868,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-01",
+        "close": 216.2821,
+        "rolling_high_20": 215.6868,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-02",
+        "close": 219.2781,
+        "rolling_high_20": 218.7821,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-03",
+        "close": 221.3119,
+        "rolling_high_20": 219.3476,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-07",
+        "close": 217.9884,
+        "rolling_high_20": 221.5599,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-08",
+        "close": 219.4964,
+        "rolling_high_20": 221.5599,
+        "rolling_low_10": 205.1708
+      },
+      {
+        "date": "2025-07-09",
+        "close": 221.8773,
+        "rolling_high_20": 221.5599,
+        "rolling_low_10": 210.2106
+      },
+      {
+        "date": "2025-07-10",
+        "close": 223.0182,
+        "rolling_high_20": 221.917,
+        "rolling_low_10": 210.2106
+      },
+      {
+        "date": "2025-07-11",
+        "close": 219.9428,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 211.0141
+      },
+      {
+        "date": "2025-07-14",
+        "close": 221.421,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 212.4328
+      },
+      {
+        "date": "2025-07-15",
+        "close": 217.0856,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 212.4527
+      },
+      {
+        "date": "2025-07-16",
+        "close": 219.2682,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 212.4527
+      },
+      {
+        "date": "2025-07-17",
+        "close": 222.1452,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-18",
+        "close": 220.5678,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-21",
+        "close": 219.6749,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-22",
+        "close": 221.5004,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-23",
+        "close": 224.8833,
+        "rolling_high_20": 224.2583,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-24",
+        "close": 221.7782,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-25",
+        "close": 222.6016,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-28",
+        "close": 222.3436,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-29",
+        "close": 220.925,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-30",
+        "close": 219.8039,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 215.1908
+      },
+      {
+        "date": "2025-07-31",
+        "close": 217.6511,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 218.3753
+      },
+      {
+        "date": "2025-08-01",
+        "close": 213.2165,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 217.1452
+      },
+      {
+        "date": "2025-08-04",
+        "close": 217.9884,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-05",
+        "close": 219.0996,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-06",
+        "close": 218.8118,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-07",
+        "close": 218.0975,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-08",
+        "close": 218.5738,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-11",
+        "close": 218.5241,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-12",
+        "close": 225.0123,
+        "rolling_high_20": 224.9131,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-13",
+        "close": 229.3874,
+        "rolling_high_20": 225.181,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-14",
+        "close": 226.431,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-15",
+        "close": 225.3298,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 210.657
+      },
+      {
+        "date": "2025-08-18",
+        "close": 226.1532,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 214.3674
+      },
+      {
+        "date": "2025-08-19",
+        "close": 224.4171,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 216.5102
+      },
+      {
+        "date": "2025-08-20",
+        "close": 223.6234,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 216.7781
+      },
+      {
+        "date": "2025-08-21",
+        "close": 224.179,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 216.7781
+      },
+      {
+        "date": "2025-08-22",
+        "close": 232.9688,
+        "rolling_high_20": 229.6255,
+        "rolling_low_10": 217.9984
+      },
+      {
+        "date": "2025-08-25",
+        "close": 230.5183,
+        "rolling_high_20": 233.5541,
+        "rolling_low_10": 218.0678
+      },
+      {
+        "date": "2025-08-26",
+        "close": 232.4231,
+        "rolling_high_20": 233.5541,
+        "rolling_low_10": 219.3972
+      },
+      {
+        "date": "2025-08-27",
+        "close": 234.0699,
+        "rolling_high_20": 233.5541,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-08-28",
+        "close": 234.3477,
+        "rolling_high_20": 234.2485,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-08-29",
+        "close": 233.306,
+        "rolling_high_20": 235.0918,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-09-02",
+        "close": 232.0461,
+        "rolling_high_20": 235.1414,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-09-03",
+        "close": 231.8179,
+        "rolling_high_20": 235.1414,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-09-04",
+        "close": 234.7148,
+        "rolling_high_20": 235.1414,
+        "rolling_low_10": 221.917
+      },
+      {
+        "date": "2025-09-05",
+        "close": 235.8855,
+        "rolling_high_20": 235.1414,
+        "rolling_low_10": 222.0063
+      },
+      {
+        "date": "2025-09-08",
+        "close": 236.3616,
+        "rolling_high_20": 237.7803,
+        "rolling_low_10": 225.3794
+      },
+      {
+        "date": "2025-09-09",
+        "close": 234.9727,
+        "rolling_high_20": 237.7803,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-10",
+        "close": 234.5561,
+        "rolling_high_20": 237.7803,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-11",
+        "close": 238.8914,
+        "rolling_high_20": 237.7803,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-12",
+        "close": 236.4509,
+        "rolling_high_20": 239.0204,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-15",
+        "close": 237.4529,
+        "rolling_high_20": 239.0204,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-16",
+        "close": 237.0619,
+        "rolling_high_20": 239.0204,
+        "rolling_low_10": 229.6354
+      },
+      {
+        "date": "2025-09-17",
+        "close": 237.6688,
+        "rolling_high_20": 239.0204,
+        "rolling_low_10": 230.6175
+      },
+      {
+        "date": "2025-09-18",
+        "close": 243.5884,
+        "rolling_high_20": 243.0313,
+        "rolling_low_10": 231.7287
+      },
+      {
+        "date": "2025-09-19",
+        "close": 241.7379,
+        "rolling_high_20": 243.8968,
+        "rolling_low_10": 233.0878
+      },
+      {
+        "date": "2025-09-22",
+        "close": 243.1407,
+        "rolling_high_20": 244.3147,
+        "rolling_low_10": 233.5541
+      },
+      {
+        "date": "2025-09-23",
+        "close": 242.5935,
+        "rolling_high_20": 244.3147,
+        "rolling_low_10": 233.5541
+      },
+      {
+        "date": "2025-09-24",
+        "close": 240.365,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 233.5938
+      },
+      {
+        "date": "2025-09-25",
+        "close": 238.0668,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 234.3676
+      },
+      {
+        "date": "2025-09-26",
+        "close": 240.1063,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 235.5497
+      },
+      {
+        "date": "2025-09-29",
+        "close": 240.3848,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 235.5497
+      },
+      {
+        "date": "2025-09-30",
+        "close": 240.7231,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 235.5497
+      },
+      {
+        "date": "2025-10-01",
+        "close": 241.2504,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 235.8084
+      },
+      {
+        "date": "2025-10-02",
+        "close": 242.7726,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-03",
+        "close": 244.5733,
+        "rolling_high_20": 245.9164,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-06",
+        "close": 245.5483,
+        "rolling_high_20": 246.8218,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-07",
+        "close": 242.9119,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-08",
+        "close": 245.4588,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-09",
+        "close": 243.8769,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 236.3357
+      },
+      {
+        "date": "2025-10-10",
+        "close": 236.5744,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 238.1066
+      },
+      {
+        "date": "2025-10-13",
+        "close": 243.1606,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-14",
+        "close": 246.6328,
+        "rolling_high_20": 247.2098,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-15",
+        "close": 249.0503,
+        "rolling_high_20": 248.3241,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-16",
+        "close": 243.8073,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-17",
+        "close": 242.1657,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-20",
+        "close": 246.8914,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-21",
+        "close": 245.7274,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-22",
+        "close": 242.0961,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-23",
+        "close": 245.1603,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-24",
+        "close": 248.1549,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 236.3456
+      },
+      {
+        "date": "2025-10-27",
+        "close": 249.0205,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.1313
+      },
+      {
+        "date": "2025-10-28",
+        "close": 247.6873,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.1313
+      },
+      {
+        "date": "2025-10-29",
+        "close": 245.5782,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-10-30",
+        "close": 243.5983,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-10-31",
+        "close": 244.9713,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-11-03",
+        "close": 244.1853,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-11-04",
+        "close": 239.967,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-11-05",
+        "close": 243.4292,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.5392
+      },
+      {
+        "date": "2025-11-06",
+        "close": 239.1213,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 239.768
+      },
+      {
+        "date": "2025-11-07",
+        "close": 240.3749,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 238.7731
+      },
+      {
+        "date": "2025-11-10",
+        "close": 242.7825,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 235.0622
+      },
+      {
+        "date": "2025-11-11",
+        "close": 242.9915,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 235.0622
+      },
+      {
+        "date": "2025-11-12",
+        "close": 242.3945,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 235.0622
+      },
+      {
+        "date": "2025-11-13",
+        "close": 235.5795,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 235.0622
+      },
+      {
+        "date": "2025-11-14",
+        "close": 236.266,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 234.6344
+      },
+      {
+        "date": "2025-11-17",
+        "close": 231.5701,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 232.0775
+      },
+      {
+        "date": "2025-11-18",
+        "close": 232.2765,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 230.5752
+      },
+      {
+        "date": "2025-11-19",
+        "close": 232.2367,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 229.7794
+      },
+      {
+        "date": "2025-11-20",
+        "close": 227.9388,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 229.7794
+      },
+      {
+        "date": "2025-11-21",
+        "close": 234.3956,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-11-24",
+        "close": 238.6736,
+        "rolling_high_20": 250.9207,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-11-25",
+        "close": 243.8769,
+        "rolling_high_20": 249.8562,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-11-26",
+        "close": 246.0358,
+        "rolling_high_20": 249.8562,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-11-28",
+        "close": 247.4784,
+        "rolling_high_20": 247.558,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-01",
+        "close": 244.3644,
+        "rolling_high_20": 247.558,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-02",
+        "close": 243.9167,
+        "rolling_high_20": 247.558,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-03",
+        "close": 248.3539,
+        "rolling_high_20": 247.558,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-04",
+        "close": 250.5327,
+        "rolling_high_20": 248.5628,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-05",
+        "close": 249.4881,
+        "rolling_high_20": 251.3684,
+        "rolling_low_10": 227.7299
+      },
+      {
+        "date": "2025-12-08",
+        "close": 249.5876,
+        "rolling_high_20": 251.3684,
+        "rolling_low_10": 228.4064
+      },
+      {
+        "date": "2025-12-09",
+        "close": 250.1049,
+        "rolling_high_20": 251.4779,
+        "rolling_low_10": 234.2762
+      },
+      {
+        "date": "2025-12-10",
+        "close": 253.5074,
+        "rolling_high_20": 251.6569,
+        "rolling_low_10": 238.8129
+      },
+      {
+        "date": "2025-12-11",
+        "close": 256.4821,
+        "rolling_high_20": 255.2584,
+        "rolling_low_10": 243.5187
+      },
+      {
+        "date": "2025-12-12",
+        "close": 252.5523,
+        "rolling_high_20": 256.6911,
+        "rolling_low_10": 243.867
+      },
+      {
+        "date": "2025-12-15",
+        "close": 250.6421,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 243.867
+      },
+      {
+        "date": "2025-12-16",
+        "close": 249.4563,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 243.867
+      },
+      {
+        "date": "2025-12-17",
+        "close": 246.801,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 244.2251
+      },
+      {
+        "date": "2025-12-18",
+        "close": 248.2684,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-19",
+        "close": 250.3447,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-22",
+        "close": 253.1297,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-23",
+        "close": 251.6324,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-24",
+        "close": 252.2613,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-26",
+        "close": 250.9736,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-29",
+        "close": 249.4363,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-30",
+        "close": 247.5896,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2025-12-31",
+        "close": 245.7229,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 246.2619
+      },
+      {
+        "date": "2026-01-02",
+        "close": 248.3382,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 245.5732
+      },
+      {
+        "date": "2026-01-05",
+        "close": 252.2812,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-06",
+        "close": 255.6253,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-07",
+        "close": 255.0264,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-08",
+        "close": 257.8114,
+        "rolling_high_20": 256.8801,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-09",
+        "close": 259.7679,
+        "rolling_high_20": 258.4702,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-12",
+        "close": 261.0356,
+        "rolling_high_20": 261.0955,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-13",
+        "close": 260.8859,
+        "rolling_high_20": 261.1954,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-14",
+        "close": 262.7227,
+        "rolling_high_20": 262.4232,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-15",
+        "close": 265.0385,
+        "rolling_high_20": 262.9922,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-16",
+        "close": 265.2881,
+        "rolling_high_20": 266.5758,
+        "rolling_low_10": 245.4234
+      },
+      {
+        "date": "2026-01-20",
+        "close": 262.1137,
+        "rolling_high_20": 266.7455,
+        "rolling_low_10": 249.1269
+      },
+      {
+        "date": "2026-01-21",
+        "close": 267.3145,
+        "rolling_high_20": 266.7455,
+        "rolling_low_10": 251.0734
+      },
+      {
+        "date": "2026-01-22",
+        "close": 269.3109,
+        "rolling_high_20": 268.1131,
+        "rolling_low_10": 253.519
+      },
+      {
+        "date": "2026-01-23",
+        "close": 264.3398,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 253.9083
+      },
+      {
+        "date": "2026-01-26",
+        "close": 263.5113,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 257.6317
+      },
+      {
+        "date": "2026-01-27",
+        "close": 264.2599,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 257.7814
+      },
+      {
+        "date": "2026-01-28",
+        "close": 262.8325,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 259.728
+      },
+      {
+        "date": "2026-01-29",
+        "close": 262.9023,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 259.728
+      },
+      {
+        "date": "2026-01-30",
+        "close": 259.1889,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 258.9494
+      },
+      {
+        "date": "2026-02-02",
+        "close": 261.7144,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 257.482
+      },
+      {
+        "date": "2026-02-03",
+        "close": 262.3134,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 257.482
+      },
+      {
+        "date": "2026-02-04",
+        "close": 260.0574,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 257.482
+      },
+      {
+        "date": "2026-02-05",
+        "close": 255.3757,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 256.6834
+      },
+      {
+        "date": "2026-02-06",
+        "close": 264.5494,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-09",
+        "close": 266.4061,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-10",
+        "close": 265.6874,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-11",
+        "close": 264.4796,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-12",
+        "close": 259.0792,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-13",
+        "close": 262.4931,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-17",
+        "close": 262.5729,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-18",
+        "close": 263.5212,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-19",
+        "close": 264.1302,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-20",
+        "close": 264.1401,
+        "rolling_high_20": 271.1177,
+        "rolling_low_10": 254.5971
+      },
+      {
+        "date": "2026-02-23",
+        "close": 260.0274,
+        "rolling_high_20": 268.5722,
+        "rolling_low_10": 257.9312
+      },
+      {
+        "date": "2026-02-24",
+        "close": 262.8624,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.6417
+      },
+      {
+        "date": "2026-02-25",
+        "close": 264.1102,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.6417
+      },
+      {
+        "date": "2026-02-26",
+        "close": 265.5177,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.6417
+      },
+      {
+        "date": "2026-02-27",
+        "close": 260.9458,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.6417
+      },
+      {
+        "date": "2026-03-02",
+        "close": 263.3416,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.6417
+      },
+      {
+        "date": "2026-03-03",
+        "close": 258.7797,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 257.3323
+      },
+      {
+        "date": "2026-03-04",
+        "close": 261.2952,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 252.8602
+      },
+      {
+        "date": "2026-03-05",
+        "close": 256.3041,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 252.8602
+      },
+      {
+        "date": "2026-03-06",
+        "close": 250.4445,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 252.8602
+      },
+      {
+        "date": "2026-03-09",
+        "close": 253.1696,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 249.4962
+      },
+      {
+        "date": "2026-03-10",
+        "close": 252.9101,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-11",
+        "close": 252.401,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-12",
+        "close": 246.9707,
+        "rolling_high_20": 268.4824,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-13",
+        "close": 246.1521,
+        "rolling_high_20": 266.9851,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-16",
+        "close": 248.478,
+        "rolling_high_20": 266.8553,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-17",
+        "close": 250.05,
+        "rolling_high_20": 266.8553,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-18",
+        "close": 246.02,
+        "rolling_high_20": 266.8553,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-19",
+        "close": 247.63,
+        "rolling_high_20": 266.8553,
+        "rolling_low_10": 243.956
+      },
+      {
+        "date": "2026-03-20",
+        "close": 242.22,
+        "rolling_high_20": 266.8553,
+        "rolling_low_10": 242.52
+      },
+      {
+        "date": "2026-03-23",
+        "close": 247.45,
+        "rolling_high_20": 265.7672,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-24",
+        "close": 248.78,
+        "rolling_high_20": 265.7672,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-25",
+        "close": 251.82,
+        "rolling_high_20": 265.7672,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-26",
+        "close": 247.44,
+        "rolling_high_20": 265.7672,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-27",
+        "close": 243.1,
+        "rolling_high_20": 263.8107,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-30",
+        "close": 239.61,
+        "rolling_high_20": 263.8107,
+        "rolling_low_10": 240.33
+      },
+      {
+        "date": "2026-03-31",
+        "close": 248.0,
+        "rolling_high_20": 262.493,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-01",
+        "close": 249.56,
+        "rolling_high_20": 262.493,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-02",
+        "close": 251.29,
+        "rolling_high_20": 260.297,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-06",
+        "close": 252.36,
+        "rolling_high_20": 257.1925,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-07",
+        "close": 252.91,
+        "rolling_high_20": 257.1925,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-08",
+        "close": 260.47,
+        "rolling_high_20": 257.1925,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-09",
+        "close": 261.96,
+        "rolling_high_20": 262.27,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-10",
+        "close": 261.3,
+        "rolling_high_20": 262.9,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-13",
+        "close": 265.07,
+        "rolling_high_20": 262.9,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-14",
+        "close": 268.72,
+        "rolling_high_20": 265.36,
+        "rolling_low_10": 238.69
+      },
+      {
+        "date": "2026-04-15",
+        "close": 269.39,
+        "rolling_high_20": 269.42,
+        "rolling_low_10": 242.24
+      },
+      {
+        "date": "2026-04-16",
+        "close": 269.95,
+        "rolling_high_20": 269.59,
+        "rolling_low_10": 244.87
+      },
+      {
+        "date": "2026-04-17",
+        "close": 275.78,
+        "rolling_high_20": 270.35,
+        "rolling_low_10": 244.87
+      },
+      {
+        "date": "2026-04-20",
+        "close": 277.35,
+        "rolling_high_20": 277.63,
+        "rolling_low_10": 249.52
+      },
+      {
+        "date": "2026-04-21",
+        "close": 274.51,
+        "rolling_high_20": 277.67,
+        "rolling_low_10": 249.52
+      },
+      {
+        "date": "2026-04-22",
+        "close": 276.48,
+        "rolling_high_20": 279.79,
+        "rolling_low_10": 258.41
+      },
+      {
+        "date": "2026-04-23",
+        "close": 275.52,
+        "rolling_high_20": 279.79,
+        "rolling_low_10": 258.78
+      },
+      {
+        "date": "2026-04-24",
+        "close": 276.65,
+        "rolling_high_20": 279.79,
+        "rolling_low_10": 260.02
+      },
+      {
+        "date": "2026-04-27",
+        "close": 277.14,
+        "rolling_high_20": 279.79,
+        "rolling_low_10": 260.02
+      },
+      {
+        "date": "2026-04-28",
+        "close": 273.91,
+        "rolling_high_20": 279.79,
+        "rolling_low_10": 266.28
+      }
+    ]
+  }
+}

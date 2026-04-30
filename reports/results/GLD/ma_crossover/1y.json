@@ -1,0 +1,2844 @@
+{
+  "metadata": {
+    "strategy": "ma_crossover",
+    "ticker": "GLD",
+    "timeframe_years": 1,
+    "starting_capital": 10000.0,
+    "transaction_cost_pct": 0.001,
+    "generated_at": "2026-04-29T23:03:51.757990+00:00",
+    "data_start": "2025-04-24",
+    "data_end": "2026-04-28",
+    "n_bars": 254
+  },
+  "metrics": {
+    "total_return": -0.0975129729382883,
+    "annualized_return": -0.09650866344912634,
+    "volatility": 0.14416043972048914,
+    "sharpe_ratio": -0.636501207579329,
+    "max_drawdown": -0.18236731704400513,
+    "avg_drawdown": -0.016843590718444282,
+    "win_rate": 0.0,
+    "trade_count": 1,
+    "avg_trade_return": -0.09841545996535006,
+    "avg_holding_period": 78.0,
+    "avg_win": null,
+    "avg_loss": -0.09841545996535006,
+    "max_win": -0.09841545996535006,
+    "max_loss": -0.09841545996535006,
+    "benchmark_return": 0.36815822743620685,
+    "outperformance": -0.46567120037449516
+  },
+  "equity": [
+    {
+      "date": "2025-04-24",
+      "portfolio": 10000.0,
+      "benchmark": 9990.00999
+    },
+    {
+      "date": "2025-04-25",
+      "portfolio": 10000.0,
+      "benchmark": 9881.701502
+    },
+    {
+      "date": "2025-04-28",
+      "portfolio": 10000.0,
+      "benchmark": 10022.437717
+    },
+    {
+      "date": "2025-04-29",
+      "portfolio": 10000.0,
+      "benchmark": 9924.829943
+    },
+    {
+      "date": "2025-04-30",
+      "portfolio": 10000.0,
+      "benchmark": 9850.570172
+    },
+    {
+      "date": "2025-05-01",
+      "portfolio": 10000.0,
+      "benchmark": 9645.951296
+    },
+    {
+      "date": "2025-05-02",
+      "portfolio": 10000.0,
+      "benchmark": 9662.814347
+    },
+    {
+      "date": "2025-05-05",
+      "portfolio": 10000.0,
+      "benchmark": 9951.420916
+    },
+    {
+      "date": "2025-05-06",
+      "portfolio": 10000.0,
+      "benchmark": 10230.299563
+    },
+    {
+      "date": "2025-05-07",
+      "portfolio": 10000.0,
+      "benchmark": 10076.91606
+    },
+    {
+      "date": "2025-05-08",
+      "portfolio": 10000.0,
+      "benchmark": 9878.458531
+    },
+    {
+      "date": "2025-05-09",
+      "portfolio": 10000.0,
+      "benchmark": 9950.12353
+    },
+    {
+      "date": "2025-05-12",
+      "portfolio": 10000.0,
+      "benchmark": 9669.623892
+    },
+    {
+      "date": "2025-05-13",
+      "portfolio": 10000.0,
+      "benchmark": 9710.806749
+    },
+    {
+      "date": "2025-05-14",
+      "portfolio": 10000.0,
+      "benchmark": 9506.512467
+    },
+    {
+      "date": "2025-05-15",
+      "portfolio": 10000.0,
+      "benchmark": 9658.27399
+    },
+    {
+      "date": "2025-05-16",
+      "portfolio": 10000.0,
+      "benchmark": 9541.533976
+    },
+    {
+      "date": "2025-05-19",
+      "portfolio": 10000.0,
+      "benchmark": 9664.435337
+    },
+    {
+      "date": "2025-05-20",
+      "portfolio": 10000.0,
+      "benchmark": 9844.408824
+    },
+    {
+      "date": "2025-05-21",
+      "portfolio": 10000.0,
+      "benchmark": 9917.047605
+    },
+    {
+      "date": "2025-05-22",
+      "portfolio": 10000.0,
+      "benchmark": 9829.167753
+    },
+    {
+      "date": "2025-05-23",
+      "portfolio": 10000.0,
+      "benchmark": 10044.488333
+    },
+    {
+      "date": "2025-05-27",
+      "portfolio": 10000.0,
+      "benchmark": 9874.242768
+    },
+    {
+      "date": "2025-05-28",
+      "portfolio": 10000.0,
+      "benchmark": 9851.867558
+    },
+    {
+      "date": "2025-05-29",
+      "portfolio": 10000.0,
+      "benchmark": 9910.23707
+    },
+    {
+      "date": "2025-05-30",
+      "portfolio": 10000.0,
+      "benchmark": 9845.058012
+    },
+    {
+      "date": "2025-06-02",
+      "portfolio": 10000.0,
+      "benchmark": 10106.750004
+    },
+    {
+      "date": "2025-06-03",
+      "portfolio": 10000.0,
+      "benchmark": 10017.249162
+    },
+    {
+      "date": "2025-06-04",
+      "portfolio": 10000.0,
+      "benchmark": 10081.780021
+    },
+    {
+      "date": "2025-06-05",
+      "portfolio": 10000.0,
+      "benchmark": 10030.868253
+    },
+    {
+      "date": "2025-06-06",
+      "portfolio": 10000.0,
+      "benchmark": 9896.293385
+    },
+    {
+      "date": "2025-06-09",
+      "portfolio": 10000.0,
+      "benchmark": 9942.989391
+    },
+    {
+      "date": "2025-06-10",
+      "portfolio": 10000.0,
+      "benchmark": 9945.907767
+    },
+    {
+      "date": "2025-06-11",
+      "portfolio": 10000.0,
+      "benchmark": 9999.737912
+    },
+    {
+      "date": "2025-06-12",
+      "portfolio": 10000.0,
+      "benchmark": 10123.936659
+    },
+    {
+      "date": "2025-06-13",
+      "portfolio": 10000.0,
+      "benchmark": 10256.565943
+    },
+    {
+      "date": "2025-06-16",
+      "portfolio": 10000.0,
+      "benchmark": 10110.316579
+    },
+    {
+      "date": "2025-06-17",
+      "portfolio": 10000.0,
+      "benchmark": 10115.505134
+    },
+    {
+      "date": "2025-06-18",
+      "portfolio": 10000.0,
+      "benchmark": 10061.026791
+    },
+    {
+      "date": "2025-06-20",
+      "portfolio": 10000.0,
+      "benchmark": 10056.811028
+    },
+    {
+      "date": "2025-06-23",
+      "portfolio": 10000.0,
+      "benchmark": 10087.616774
+    },
+    {
+      "date": "2025-06-24",
+      "portfolio": 10000.0,
+      "benchmark": 9929.045706
+    },
+    {
+      "date": "2025-06-25",
+      "portfolio": 10000.0,
+      "benchmark": 9959.203254
+    },
+    {
+      "date": "2025-06-26",
+      "portfolio": 10000.0,
+      "benchmark": 9948.177946
+    },
+    {
+      "date": "2025-06-27",
+      "portfolio": 10000.0,
+      "benchmark": 9767.879864
+    },
+    {
+      "date": "2025-06-30",
+      "portfolio": 10000.0,
+      "benchmark": 9884.943483
+    },
+    {
+      "date": "2025-07-01",
+      "portfolio": 10000.0,
+      "benchmark": 9973.146939
+    },
+    {
+      "date": "2025-07-02",
+      "portfolio": 10000.0,
+      "benchmark": 10028.27447
+    },
+    {
+      "date": "2025-07-03",
+      "portfolio": 10000.0,
+      "benchmark": 9959.852442
+    },
+    {
+      "date": "2025-07-07",
+      "portfolio": 10000.0,
+      "benchmark": 9967.310186
+    },
+    {
+      "date": "2025-07-08",
+      "portfolio": 10000.0,
+      "benchmark": 9863.21746
+    },
+    {
+      "date": "2025-07-09",
+      "portfolio": 10000.0,
+      "benchmark": 9907.318693
+    },
+    {
+      "date": "2025-07-10",
+      "portfolio": 10000.0,
+      "benchmark": 9929.370299
+    },
+    {
+      "date": "2025-07-11",
+      "portfolio": 10000.0,
+      "benchmark": 10024.707895
+    },
+    {
+      "date": "2025-07-14",
+      "portfolio": 10000.0,
+      "benchmark": 9988.064406
+    },
+    {
+      "date": "2025-07-15",
+      "portfolio": 10000.0,
+      "benchmark": 9946.556955
+    },
+    {
+      "date": "2025-07-16",
+      "portfolio": 10000.0,
+      "benchmark": 9996.171337
+    },
+    {
+      "date": "2025-07-17",
+      "portfolio": 10000.0,
+      "benchmark": 9974.444325
+    },
+    {
+      "date": "2025-07-18",
+      "portfolio": 10000.0,
+      "benchmark": 10000.3871
+    },
+    {
+      "date": "2025-07-21",
+      "portfolio": 10000.0,
+      "benchmark": 10154.094208
+    },
+    {
+      "date": "2025-07-22",
+      "portfolio": 10000.0,
+      "benchmark": 10250.404596
+    },
+    {
+      "date": "2025-07-23",
+      "portfolio": 10000.0,
+      "benchmark": 10123.287472
+    },
+    {
+      "date": "2025-07-24",
+      "portfolio": 10000.0,
+      "benchmark": 10061.350395
+    },
+    {
+      "date": "2025-07-25",
+      "portfolio": 10000.0,
+      "benchmark": 9968.282978
+    },
+    {
+      "date": "2025-07-28",
+      "portfolio": 10000.0,
+      "benchmark": 9903.752118
+    },
+    {
+      "date": "2025-07-29",
+      "portfolio": 10000.0,
+      "benchmark": 9930.99129
+    },
+    {
+      "date": "2025-07-30",
+      "portfolio": 10000.0,
+      "benchmark": 9759.448339
+    },
+    {
+      "date": "2025-07-31",
+      "portfolio": 10000.0,
+      "benchmark": 9824.303792
+    },
+    {
+      "date": "2025-08-01",
+      "portfolio": 10000.0,
+      "benchmark": 10023.734113
+    },
+    {
+      "date": "2025-08-04",
+      "portfolio": 10000.0,
+      "benchmark": 10082.104615
+    },
+    {
+      "date": "2025-08-05",
+      "portfolio": 10000.0,
+      "benchmark": 10090.211547
+    },
+    {
+      "date": "2025-08-06",
+      "portfolio": 10000.0,
+      "benchmark": 10068.809128
+    },
+    {
+      "date": "2025-08-07",
+      "portfolio": 10000.0,
+      "benchmark": 10153.769614
+    },
+    {
+      "date": "2025-08-08",
+      "portfolio": 10000.0,
+      "benchmark": 10151.499435
+    },
+    {
+      "date": "2025-08-11",
+      "portfolio": 10000.0,
+      "benchmark": 10005.574665
+    },
+    {
+      "date": "2025-08-12",
+      "portfolio": 10000.0,
+      "benchmark": 9996.494942
+    },
+    {
+      "date": "2025-08-13",
+      "portfolio": 10000.0,
+      "benchmark": 10026.977084
+    },
+    {
+      "date": "2025-08-14",
+      "portfolio": 10000.0,
+      "benchmark": 9963.419017
+    },
+    {
+      "date": "2025-08-15",
+      "portfolio": 10000.0,
+      "benchmark": 9969.25577
+    },
+    {
+      "date": "2025-08-18",
+      "portfolio": 10000.0,
+      "benchmark": 9953.691094
+    },
+    {
+      "date": "2025-08-19",
+      "portfolio": 10000.0,
+      "benchmark": 9899.211762
+    },
+    {
+      "date": "2025-08-20",
+      "portfolio": 10000.0,
+      "benchmark": 9999.413318
+    },
+    {
+      "date": "2025-08-21",
+      "portfolio": 10000.0,
+      "benchmark": 9964.716403
+    },
+    {
+      "date": "2025-08-22",
+      "portfolio": 10000.0,
+      "benchmark": 10071.402911
+    },
+    {
+      "date": "2025-08-25",
+      "portfolio": 10000.0,
+      "benchmark": 10047.082116
+    },
+    {
+      "date": "2025-08-26",
+      "portfolio": 10000.0,
+      "benchmark": 10120.044501
+    },
+    {
+      "date": "2025-08-27",
+      "portfolio": 10000.0,
+      "benchmark": 10140.474127
+    },
+    {
+      "date": "2025-08-28",
+      "portfolio": 10000.0,
+      "benchmark": 10215.70669
+    },
+    {
+      "date": "2025-08-29",
+      "portfolio": 10000.0,
+      "benchmark": 10314.287257
+    },
+    {
+      "date": "2025-09-02",
+      "portfolio": 10000.0,
+      "benchmark": 10558.143405
+    },
+    {
+      "date": "2025-09-03",
+      "portfolio": 10000.0,
+      "benchmark": 10640.834702
+    },
+    {
+      "date": "2025-09-04",
+      "portfolio": 10000.0,
+      "benchmark": 10593.814102
+    },
+    {
+      "date": "2025-09-05",
+      "portfolio": 10000.0,
+      "benchmark": 10735.198515
+    },
+    {
+      "date": "2025-09-08",
+      "portfolio": 10000.0,
+      "benchmark": 10857.451678
+    },
+    {
+      "date": "2025-09-09",
+      "portfolio": 10000.0,
+      "benchmark": 10832.806289
+    },
+    {
+      "date": "2025-09-10",
+      "portfolio": 10000.0,
+      "benchmark": 10871.719957
+    },
+    {
+      "date": "2025-09-11",
+      "portfolio": 10000.0,
+      "benchmark": 10855.506094
+    },
+    {
+      "date": "2025-09-12",
+      "portfolio": 10000.0,
+      "benchmark": 10876.908512
+    },
+    {
+      "date": "2025-09-15",
+      "portfolio": 10000.0,
+      "benchmark": 10990.080961
+    },
+    {
+      "date": "2025-09-16",
+      "portfolio": 10000.0,
+      "benchmark": 11012.131578
+    },
+    {
+      "date": "2025-09-17",
+      "portfolio": 10000.0,
+      "benchmark": 10927.171093
+    },
+    {
+      "date": "2025-09-18",
+      "portfolio": 10000.0,
+      "benchmark": 10883.393464
+    },
+    {
+      "date": "2025-09-19",
+      "portfolio": 10000.0,
+      "benchmark": 10998.836091
+    },
+    {
+      "date": "2025-09-22",
+      "portfolio": 10000.0,
+      "benchmark": 11189.186689
+    },
+    {
+      "date": "2025-09-23",
+      "portfolio": 10000.0,
+      "benchmark": 11234.909902
+    },
+    {
+      "date": "2025-09-24",
+      "portfolio": 10000.0,
+      "benchmark": 11133.087355
+    },
+    {
+      "date": "2025-09-25",
+      "portfolio": 10000.0,
+      "benchmark": 11179.458766
+    },
+    {
+      "date": "2025-09-26",
+      "portfolio": 10000.0,
+      "benchmark": 11243.989626
+    },
+    {
+      "date": "2025-09-29",
+      "portfolio": 10000.0,
+      "benchmark": 11429.476262
+    },
+    {
+      "date": "2025-09-30",
+      "portfolio": 10000.0,
+      "benchmark": 11527.084036
+    },
+    {
+      "date": "2025-10-01",
+      "portfolio": 10000.0,
+      "benchmark": 11545.243484
+    },
+    {
+      "date": "2025-10-02",
+      "portfolio": 10000.0,
+      "benchmark": 11505.033419
+    },
+    {
+      "date": "2025-10-03",
+      "portfolio": 10000.0,
+      "benchmark": 11597.452638
+    },
+    {
+      "date": "2025-10-06",
+      "portfolio": 10000.0,
+      "benchmark": 11816.015199
+    },
+    {
+      "date": "2025-10-07",
+      "portfolio": 10000.0,
+      "benchmark": 11876.979484
+    },
+    {
+      "date": "2025-10-08",
+      "portfolio": 10000.0,
+      "benchmark": 12072.84224
+    },
+    {
+      "date": "2025-10-09",
+      "portfolio": 10000.0,
+      "benchmark": 11850.063916
+    },
+    {
+      "date": "2025-10-10",
+      "portfolio": 10000.0,
+      "benchmark": 11969.722307
+    },
+    {
+      "date": "2025-10-13",
+      "portfolio": 10000.0,
+      "benchmark": 12260.599055
+    },
+    {
+      "date": "2025-10-14",
+      "portfolio": 10000.0,
+      "benchmark": 12348.154312
+    },
+    {
+      "date": "2025-10-15",
+      "portfolio": 10000.0,
+      "benchmark": 12562.177506
+    },
+    {
+      "date": "2025-10-16",
+      "portfolio": 10000.0,
+      "benchmark": 12855.972631
+    },
+    {
+      "date": "2025-10-17",
+      "portfolio": 10000.0,
+      "benchmark": 12614.061077
+    },
+    {
+      "date": "2025-10-20",
+      "portfolio": 10000.0,
+      "benchmark": 13073.237806
+    },
+    {
+      "date": "2025-10-21",
+      "portfolio": 10000.0,
+      "benchmark": 12233.035289
+    },
+    {
+      "date": "2025-10-22",
+      "portfolio": 10000.0,
+      "benchmark": 12234.332675
+    },
+    {
+      "date": "2025-10-23",
+      "portfolio": 10000.0,
+      "benchmark": 12283.298859
+    },
+    {
+      "date": "2025-10-24",
+      "portfolio": 10000.0,
+      "benchmark": 12242.115013
+    },
+    {
+      "date": "2025-10-27",
+      "portfolio": 10000.0,
+      "benchmark": 11901.300279
+    },
+    {
+      "date": "2025-10-28",
+      "portfolio": 10000.0,
+      "benchmark": 11816.015199
+    },
+    {
+      "date": "2025-10-29",
+      "portfolio": 10000.0,
+      "benchmark": 11771.264778
+    },
+    {
+      "date": "2025-10-30",
+      "portfolio": 10000.0,
+      "benchmark": 12002.474627
+    },
+    {
+      "date": "2025-10-31",
+      "portfolio": 10000.0,
+      "benchmark": 11937.29458
+    },
+    {
+      "date": "2025-11-03",
+      "portfolio": 10000.0,
+      "benchmark": 11958.696999
+    },
+    {
+      "date": "2025-11-04",
+      "portfolio": 10000.0,
+      "benchmark": 11749.214161
+    },
+    {
+      "date": "2025-11-05",
+      "portfolio": 10000.0,
+      "benchmark": 11885.086415
+    },
+    {
+      "date": "2025-11-06",
+      "portfolio": 10000.0,
+      "benchmark": 11870.818136
+    },
+    {
+      "date": "2025-11-07",
+      "portfolio": 10000.0,
+      "benchmark": 11943.455927
+    },
+    {
+      "date": "2025-11-10",
+      "portfolio": 10000.0,
+      "benchmark": 12270.003372
+    },
+    {
+      "date": "2025-11-11",
+      "portfolio": 10000.0,
+      "benchmark": 12318.320368
+    },
+    {
+      "date": "2025-11-12",
+      "portfolio": 10000.0,
+      "benchmark": 12516.777897
+    },
+    {
+      "date": "2025-11-13",
+      "portfolio": 10000.0,
+      "benchmark": 12415.603548
+    },
+    {
+      "date": "2025-11-14",
+      "portfolio": 10000.0,
+      "benchmark": 12191.527838
+    },
+    {
+      "date": "2025-11-17",
+      "portfolio": 10000.0,
+      "benchmark": 12051.764416
+    },
+    {
+      "date": "2025-11-18",
+      "portfolio": 10000.0,
+      "benchmark": 12139.319674
+    },
+    {
+      "date": "2025-11-19",
+      "portfolio": 10000.0,
+      "benchmark": 12159.100112
+    },
+    {
+      "date": "2025-11-20",
+      "portfolio": 10000.0,
+      "benchmark": 12155.533537
+    },
+    {
+      "date": "2025-11-21",
+      "portfolio": 10000.0,
+      "benchmark": 12136.724901
+    },
+    {
+      "date": "2025-11-24",
+      "portfolio": 10000.0,
+      "benchmark": 12329.022072
+    },
+    {
+      "date": "2025-11-25",
+      "portfolio": 10000.0,
+      "benchmark": 12325.129914
+    },
+    {
+      "date": "2025-11-26",
+      "portfolio": 10000.0,
+      "benchmark": 12423.71048
+    },
+    {
+      "date": "2025-11-28",
+      "portfolio": 10000.0,
+      "benchmark": 12578.066776
+    },
+    {
+      "date": "2025-12-01",
+      "portfolio": 10000.0,
+      "benchmark": 12638.706466
+    },
+    {
+      "date": "2025-12-02",
+      "portfolio": 10000.0,
+      "benchmark": 12557.312556
+    },
+    {
+      "date": "2025-12-03",
+      "portfolio": 10000.0,
+      "benchmark": 12545.639049
+    },
+    {
+      "date": "2025-12-04",
+      "portfolio": 10000.0,
+      "benchmark": 12553.745981
+    },
+    {
+      "date": "2025-12-05",
+      "portfolio": 10000.0,
+      "benchmark": 12531.37077
+    },
+    {
+      "date": "2025-12-08",
+      "portfolio": 10000.0,
+      "benchmark": 12498.294845
+    },
+    {
+      "date": "2025-12-09",
+      "portfolio": 10000.0,
+      "benchmark": 12562.501111
+    },
+    {
+      "date": "2025-12-10",
+      "portfolio": 10000.0,
+      "benchmark": 12616.006662
+    },
+    {
+      "date": "2025-12-11",
+      "portfolio": 10000.0,
+      "benchmark": 12751.878916
+    },
+    {
+      "date": "2025-12-12",
+      "portfolio": 10000.0,
+      "benchmark": 12823.22031
+    },
+    {
+      "date": "2025-12-15",
+      "portfolio": 10000.0,
+      "benchmark": 12834.893817
+    },
+    {
+      "date": "2025-12-16",
+      "portfolio": 10000.0,
+      "benchmark": 12837.813183
+    },
+    {
+      "date": "2025-12-17",
+      "portfolio": 10000.0,
+      "benchmark": 12948.067256
+    },
+    {
+      "date": "2025-12-18",
+      "portfolio": 10000.0,
+      "benchmark": 12924.719253
+    },
+    {
+      "date": "2025-12-19",
+      "portfolio": 10000.0,
+      "benchmark": 12939.311136
+    },
+    {
+      "date": "2025-12-22",
+      "portfolio": 10000.0,
+      "benchmark": 13237.971211
+    },
+    {
+      "date": "2025-12-23",
+      "portfolio": 10000.0,
+      "benchmark": 13413.405331
+    },
+    {
+      "date": "2025-12-24",
+      "portfolio": 10000.0,
+      "benchmark": 13357.953206
+    },
+    {
+      "date": "2025-12-26",
+      "portfolio": 10000.0,
+      "benchmark": 13513.930492
+    },
+    {
+      "date": "2025-12-29",
+      "portfolio": 10000.0,
+      "benchmark": 12925.692045
+    },
+    {
+      "date": "2025-12-30",
+      "portfolio": 10000.0,
+      "benchmark": 12935.096363
+    },
+    {
+      "date": "2025-12-31",
+      "portfolio": 10000.0,
+      "benchmark": 12851.432274
+    },
+    {
+      "date": "2026-01-02",
+      "portfolio": 10000.0,
+      "benchmark": 12915.314935
+    },
+    {
+      "date": "2026-01-05",
+      "portfolio": 10000.0,
+      "benchmark": 13255.157867
+    },
+    {
+      "date": "2026-01-06",
+      "portfolio": 10000.0,
+      "benchmark": 13398.487864
+    },
+    {
+      "date": "2026-01-07",
+      "portfolio": 10000.0,
+      "benchmark": 13270.398938
+    },
+    {
+      "date": "2026-01-08",
+      "portfolio": 10000.0,
+      "benchmark": 13343.684927
+    },
+    {
+      "date": "2026-01-09",
+      "portfolio": 10000.0,
+      "benchmark": 13440.319909
+    },
+    {
+      "date": "2026-01-12",
+      "portfolio": 10000.0,
+      "benchmark": 13691.959384
+    },
+    {
+      "date": "2026-01-13",
+      "portfolio": 10000.0,
+      "benchmark": 13672.50255
+    },
+    {
+      "date": "2026-01-14",
+      "portfolio": 10000.0,
+      "benchmark": 13812.265973
+    },
+    {
+      "date": "2026-01-15",
+      "portfolio": 10000.0,
+      "benchmark": 13727.629092
+    },
+    {
+      "date": "2026-01-16",
+      "portfolio": 10000.0,
+      "benchmark": 13661.477242
+    },
+    {
+      "date": "2026-01-20",
+      "portfolio": 10000.0,
+      "benchmark": 14178.375284
+    },
+    {
+      "date": "2026-01-21",
+      "portfolio": 10000.0,
+      "benchmark": 14384.939745
+    },
+    {
+      "date": "2026-01-22",
+      "portfolio": 10000.0,
+      "benchmark": 14650.522905
+    },
+    {
+      "date": "2026-01-23",
+      "portfolio": 10000.0,
+      "benchmark": 14851.898811
+    },
+    {
+      "date": "2026-01-26",
+      "portfolio": 10000.0,
+      "benchmark": 15069.164975
+    },
+    {
+      "date": "2026-01-27",
+      "portfolio": 10000.0,
+      "benchmark": 15438.840861
+    },
+    {
+      "date": "2026-01-28",
+      "portfolio": 10000.0,
+      "benchmark": 16037.456418
+    },
+    {
+      "date": "2026-01-29",
+      "portfolio": 10000.0,
+      "benchmark": 16080.909453
+    },
+    {
+      "date": "2026-01-30",
+      "portfolio": 10000.0,
+      "benchmark": 14428.717374
+    },
+    {
+      "date": "2026-02-02",
+      "portfolio": 10000.0,
+      "benchmark": 13850.855047
+    },
+    {
+      "date": "2026-02-03",
+      "portfolio": 10000.0,
+      "benchmark": 14731.592222
+    },
+    {
+      "date": "2026-02-04",
+      "portfolio": 10000.0,
+      "benchmark": 14721.215112
+    },
+    {
+      "date": "2026-02-05",
+      "portfolio": 10000.0,
+      "benchmark": 14329.164015
+    },
+    {
+      "date": "2026-02-06",
+      "portfolio": 10000.0,
+      "benchmark": 14769.532108
+    },
+    {
+      "date": "2026-02-09",
+      "portfolio": 9990.00999,
+      "benchmark": 15144.721143
+    },
+    {
+      "date": "2026-02-10",
+      "portfolio": 9890.971823,
+      "benchmark": 14994.58061
+    },
+    {
+      "date": "2026-02-11",
+      "portfolio": 10002.844427,
+      "benchmark": 15164.177977
+    },
+    {
+      "date": "2026-02-12",
+      "portfolio": 9655.462749,
+      "benchmark": 14637.552013
+    },
+    {
+      "date": "2026-02-13",
+      "portfolio": 9895.677761,
+      "benchmark": 15001.71475
+    },
+    {
+      "date": "2026-02-17",
+      "portfolio": 9587.226969,
+      "benchmark": 14534.107485
+    },
+    {
+      "date": "2026-02-18",
+      "portfolio": 9802.843025,
+      "benchmark": 14860.978535
+    },
+    {
+      "date": "2026-02-19",
+      "portfolio": 9830.222852,
+      "benchmark": 14902.485985
+    },
+    {
+      "date": "2026-02-20",
+      "portfolio": 10024.020823,
+      "benchmark": 15196.28111
+    },
+    {
+      "date": "2026-02-23",
+      "portfolio": 10294.824762,
+      "benchmark": 15606.816248
+    },
+    {
+      "date": "2026-02-24",
+      "portfolio": 10152.149771,
+      "benchmark": 15390.522876
+    },
+    {
+      "date": "2026-02-25",
+      "portfolio": 10126.695664,
+      "benchmark": 15351.934791
+    },
+    {
+      "date": "2026-02-26",
+      "portfolio": 10213.541084,
+      "benchmark": 15483.591282
+    },
+    {
+      "date": "2026-02-27",
+      "portfolio": 10347.659348,
+      "benchmark": 15686.912772
+    },
+    {
+      "date": "2026-03-02",
+      "portfolio": 10481.350037,
+      "benchmark": 15889.586064
+    },
+    {
+      "date": "2026-03-03",
+      "portfolio": 10013.753796,
+      "benchmark": 15180.716434
+    },
+    {
+      "date": "2026-03-04",
+      "portfolio": 10092.042489,
+      "benchmark": 15299.401043
+    },
+    {
+      "date": "2026-03-05",
+      "portfolio": 9970.758661,
+      "benchmark": 15115.536387
+    },
+    {
+      "date": "2026-03-06",
+      "portfolio": 10128.620732,
+      "benchmark": 15354.853168
+    },
+    {
+      "date": "2026-03-09",
+      "portfolio": 10107.657797,
+      "benchmark": 15323.07364
+    },
+    {
+      "date": "2026-03-10",
+      "portfolio": 10221.668929,
+      "benchmark": 15495.912987
+    },
+    {
+      "date": "2026-03-11",
+      "portfolio": 10187.016407,
+      "benchmark": 15443.380228
+    },
+    {
+      "date": "2026-03-12",
+      "portfolio": 9986.801544,
+      "benchmark": 15139.857182
+    },
+    {
+      "date": "2026-03-13",
+      "portfolio": 9857.602679,
+      "benchmark": 14943.993436
+    },
+    {
+      "date": "2026-03-16",
+      "portfolio": 9848.832492,
+      "benchmark": 14930.697949
+    },
+    {
+      "date": "2026-03-17",
+      "portfolio": 9824.019421,
+      "benchmark": 14893.081667
+    },
+    {
+      "date": "2026-03-18",
+      "portfolio": 9513.215333,
+      "benchmark": 14421.906839
+    },
+    {
+      "date": "2026-03-19",
+      "portfolio": 9121.127567,
+      "benchmark": 13827.507044
+    },
+    {
+      "date": "2026-03-20",
+      "portfolio": 8842.409244,
+      "benchmark": 13404.973806
+    },
+    {
+      "date": "2026-03-23",
+      "portfolio": 8642.621956,
+      "benchmark": 13102.098957
+    },
+    {
+      "date": "2026-03-24",
+      "portfolio": 8644.547024,
+      "benchmark": 13105.017334
+    },
+    {
+      "date": "2026-03-25",
+      "portfolio": 8904.655707,
+      "benchmark": 13499.338609
+    },
+    {
+      "date": "2026-03-26",
+      "portfolio": 8569.894352,
+      "benchmark": 12991.844885
+    },
+    {
+      "date": "2026-03-27",
+      "portfolio": 8870.644874,
+      "benchmark": 13447.778642
+    },
+    {
+      "date": "2026-03-30",
+      "portfolio": 8868.077465,
+      "benchmark": 13443.886484
+    },
+    {
+      "date": "2026-03-31",
+      "portfolio": 9204.122851,
+      "benchmark": 13953.326782
+    },
+    {
+      "date": "2026-04-01",
+      "portfolio": 9365.193368,
+      "benchmark": 14197.507524
+    },
+    {
+      "date": "2026-04-02",
+      "portfolio": 9185.299098,
+      "benchmark": 13924.790224
+    },
+    {
+      "date": "2026-04-06",
+      "portfolio": 9147.651591,
+      "benchmark": 13867.717109
+    },
+    {
+      "date": "2026-04-07",
+      "portfolio": 9236.636192,
+      "benchmark": 14002.61657
+    },
+    {
+      "date": "2026-04-08",
+      "portfolio": 9294.818406,
+      "benchmark": 14090.820026
+    },
+    {
+      "date": "2026-04-09",
+      "portfolio": 9367.118435,
+      "benchmark": 14200.425901
+    },
+    {
+      "date": "2026-04-10",
+      "portfolio": 9350.433863,
+      "benchmark": 14175.132314
+    },
+    {
+      "date": "2026-04-13",
+      "portfolio": 9312.572242,
+      "benchmark": 14117.734604
+    },
+    {
+      "date": "2026-04-14",
+      "portfolio": 9520.702142,
+      "benchmark": 14433.256741
+    },
+    {
+      "date": "2026-04-15",
+      "portfolio": 9421.663975,
+      "benchmark": 14283.116208
+    },
+    {
+      "date": "2026-04-16",
+      "portfolio": 9413.535477,
+      "benchmark": 14270.793514
+    },
+    {
+      "date": "2026-04-17",
+      "portfolio": 9538.670093,
+      "benchmark": 14460.495913
+    },
+    {
+      "date": "2026-04-20",
+      "portfolio": 9456.530611,
+      "benchmark": 14335.973561
+    },
+    {
+      "date": "2026-04-21",
+      "portfolio": 9188.721658,
+      "benchmark": 13929.978779
+    },
+    {
+      "date": "2026-04-22",
+      "portfolio": 9310.433713,
+      "benchmark": 14114.492623
+    },
+    {
+      "date": "2026-04-23",
+      "portfolio": 9220.165734,
+      "benchmark": 13977.647577
+    },
+    {
+      "date": "2026-04-24",
+      "portfolio": 9267.438579,
+      "benchmark": 14049.312576
+    },
+    {
+      "date": "2026-04-27",
+      "portfolio": 9195.566778,
+      "benchmark": 13940.355889
+    },
+    {
+      "date": "2026-04-28",
+      "portfolio": 9024.870271,
+      "benchmark": 13681.582274
+    }
+  ],
+  "trade_log": [
+    {
+      "entry_date": "2026-02-09",
+      "entry_price": 467.0299987792969,
+      "exit_date": "2026-04-28",
+      "exit_price": 421.9100036621094,
+      "shares": 21.3905102801136,
+      "pnl": -984.1545996535006,
+      "return_pct": -0.09841545996535006,
+      "holding_days": 78
+    }
+  ],
+  "chart_data": {
+    "type": "ma_crossover",
+    "timeseries": [
+      {
+        "date": "2025-04-24",
+        "close": 308.07,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-04-25",
+        "close": 304.73,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-04-28",
+        "close": 309.07,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-04-29",
+        "close": 306.06,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-04-30",
+        "close": 303.77,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-01",
+        "close": 297.46,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-02",
+        "close": 297.98,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-05",
+        "close": 306.88,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-06",
+        "close": 315.48,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-07",
+        "close": 310.75,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-08",
+        "close": 304.63,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-09",
+        "close": 306.84,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-12",
+        "close": 298.19,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-13",
+        "close": 299.46,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-14",
+        "close": 293.16,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-15",
+        "close": 297.84,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-16",
+        "close": 294.24,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-19",
+        "close": 298.03,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-20",
+        "close": 303.58,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-21",
+        "close": 305.82,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-22",
+        "close": 303.11,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-23",
+        "close": 309.75,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-27",
+        "close": 304.5,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-28",
+        "close": 303.81,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-29",
+        "close": 305.61,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-05-30",
+        "close": 303.6,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-02",
+        "close": 311.67,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-03",
+        "close": 308.91,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-04",
+        "close": 310.9,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-05",
+        "close": 309.33,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-06",
+        "close": 305.18,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-09",
+        "close": 306.62,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-10",
+        "close": 306.71,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-11",
+        "close": 308.37,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-12",
+        "close": 312.2,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-13",
+        "close": 316.29,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-16",
+        "close": 311.78,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-17",
+        "close": 311.94,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-18",
+        "close": 310.26,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-20",
+        "close": 310.13,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-23",
+        "close": 311.08,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-24",
+        "close": 306.19,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-25",
+        "close": 307.12,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-26",
+        "close": 306.78,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-27",
+        "close": 301.22,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-06-30",
+        "close": 304.83,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-01",
+        "close": 307.55,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-02",
+        "close": 309.25,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-03",
+        "close": 307.14,
+        "sma_50": null,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-07",
+        "close": 307.37,
+        "sma_50": 306.0248,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-08",
+        "close": 304.16,
+        "sma_50": 305.9466,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-09",
+        "close": 305.52,
+        "sma_50": 305.9624,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-10",
+        "close": 306.2,
+        "sma_50": 305.905,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-11",
+        "close": 309.14,
+        "sma_50": 305.9666,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-14",
+        "close": 308.01,
+        "sma_50": 306.0514,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-15",
+        "close": 306.73,
+        "sma_50": 306.2368,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-16",
+        "close": 308.26,
+        "sma_50": 306.4424,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-17",
+        "close": 307.59,
+        "sma_50": 306.4566,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-18",
+        "close": 308.39,
+        "sma_50": 306.3148,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-21",
+        "close": 313.13,
+        "sma_50": 306.3624,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-22",
+        "close": 316.1,
+        "sma_50": 306.5918,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-23",
+        "close": 312.18,
+        "sma_50": 306.6986,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-24",
+        "close": 310.27,
+        "sma_50": 306.9402,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-25",
+        "close": 307.4,
+        "sma_50": 307.099,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-28",
+        "close": 305.41,
+        "sma_50": 307.344,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-29",
+        "close": 306.25,
+        "sma_50": 307.5122,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-30",
+        "close": 300.96,
+        "sma_50": 307.6466,
+        "sma_200": null
+      },
+      {
+        "date": "2025-07-31",
+        "close": 302.96,
+        "sma_50": 307.7452,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-01",
+        "close": 309.11,
+        "sma_50": 307.8558,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-04",
+        "close": 310.91,
+        "sma_50": 307.9576,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-05",
+        "close": 311.16,
+        "sma_50": 308.1186,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-06",
+        "close": 310.5,
+        "sma_50": 308.1336,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-07",
+        "close": 313.12,
+        "sma_50": 308.306,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-08",
+        "close": 313.05,
+        "sma_50": 308.4908,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-11",
+        "close": 308.55,
+        "sma_50": 308.5496,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-12",
+        "close": 308.27,
+        "sma_50": 308.643,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-13",
+        "close": 309.21,
+        "sma_50": 308.5938,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-14",
+        "close": 307.25,
+        "sma_50": 308.5606,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-15",
+        "close": 307.43,
+        "sma_50": 308.4912,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-18",
+        "close": 306.95,
+        "sma_50": 308.4436,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-19",
+        "close": 305.27,
+        "sma_50": 308.4454,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-20",
+        "close": 308.36,
+        "sma_50": 308.4802,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-21",
+        "close": 307.29,
+        "sma_50": 308.4918,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-22",
+        "close": 310.58,
+        "sma_50": 308.536,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-25",
+        "close": 309.83,
+        "sma_50": 308.4886,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-26",
+        "close": 312.08,
+        "sma_50": 308.4044,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-27",
+        "close": 312.71,
+        "sma_50": 308.423,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-28",
+        "close": 315.03,
+        "sma_50": 308.4848,
+        "sma_200": null
+      },
+      {
+        "date": "2025-08-29",
+        "close": 318.07,
+        "sma_50": 308.641,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-02",
+        "close": 325.59,
+        "sma_50": 308.9502,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-03",
+        "close": 328.14,
+        "sma_50": 309.2914,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-04",
+        "close": 326.69,
+        "sma_50": 309.7014,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-05",
+        "close": 331.05,
+        "sma_50": 310.18,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-08",
+        "close": 334.82,
+        "sma_50": 310.7408,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-09",
+        "close": 334.06,
+        "sma_50": 311.3976,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-10",
+        "close": 335.26,
+        "sma_50": 312.0062,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-11",
+        "close": 334.76,
+        "sma_50": 312.5504,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-12",
+        "close": 335.42,
+        "sma_50": 313.0738,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-15",
+        "close": 338.91,
+        "sma_50": 313.7092,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-16",
+        "close": 339.59,
+        "sma_50": 314.3536,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-17",
+        "close": 336.97,
+        "sma_50": 315.0098,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-18",
+        "close": 335.62,
+        "sma_50": 315.6118,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-19",
+        "close": 339.18,
+        "sma_50": 316.2714,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-22",
+        "close": 345.05,
+        "sma_50": 316.9896,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-23",
+        "close": 346.46,
+        "sma_50": 317.7586,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-24",
+        "close": 343.32,
+        "sma_50": 318.4904,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-25",
+        "close": 344.75,
+        "sma_50": 319.2202,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-26",
+        "close": 346.74,
+        "sma_50": 320.0032,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-29",
+        "close": 352.46,
+        "sma_50": 320.8846,
+        "sma_200": null
+      },
+      {
+        "date": "2025-09-30",
+        "close": 355.47,
+        "sma_50": 321.7314,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-01",
+        "close": 356.03,
+        "sma_50": 322.53,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-02",
+        "close": 354.79,
+        "sma_50": 323.3822,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-03",
+        "close": 357.64,
+        "sma_50": 324.3296,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-06",
+        "close": 364.38,
+        "sma_50": 325.4692,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-07",
+        "close": 366.26,
+        "sma_50": 326.6862,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-08",
+        "close": 372.3,
+        "sma_50": 328.0072,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-09",
+        "close": 365.43,
+        "sma_50": 329.2966,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-10",
+        "close": 369.12,
+        "sma_50": 330.6198,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-13",
+        "close": 378.09,
+        "sma_50": 331.9994,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-14",
+        "close": 380.79,
+        "sma_50": 333.397,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-15",
+        "close": 387.39,
+        "sma_50": 334.9216,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-16",
+        "close": 396.45,
+        "sma_50": 336.6406,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-17",
+        "close": 388.99,
+        "sma_50": 338.158,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-20",
+        "close": 403.15,
+        "sma_50": 339.96,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-21",
+        "close": 377.24,
+        "sma_50": 341.3338,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-22",
+        "close": 377.28,
+        "sma_50": 342.714,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-23",
+        "close": 378.79,
+        "sma_50": 344.1056,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-24",
+        "close": 377.52,
+        "sma_50": 345.511,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-27",
+        "close": 367.01,
+        "sma_50": 346.7026,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-28",
+        "close": 364.38,
+        "sma_50": 347.8512,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-29",
+        "close": 363.0,
+        "sma_50": 349.0058,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-30",
+        "close": 370.13,
+        "sma_50": 350.2412,
+        "sma_200": null
+      },
+      {
+        "date": "2025-10-31",
+        "close": 368.12,
+        "sma_50": 351.4578,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-03",
+        "close": 368.78,
+        "sma_50": 352.6218,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-04",
+        "close": 362.32,
+        "sma_50": 353.6716,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-05",
+        "close": 366.51,
+        "sma_50": 354.7602,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-06",
+        "close": 366.07,
+        "sma_50": 355.8274,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-07",
+        "close": 368.31,
+        "sma_50": 356.893,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-10",
+        "close": 378.38,
+        "sma_50": 358.0992,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-11",
+        "close": 379.87,
+        "sma_50": 359.1848,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-12",
+        "close": 385.99,
+        "sma_50": 360.3418,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-13",
+        "close": 382.87,
+        "sma_50": 361.4654,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-14",
+        "close": 375.96,
+        "sma_50": 362.3636,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-17",
+        "close": 371.65,
+        "sma_50": 363.1002,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-18",
+        "close": 374.35,
+        "sma_50": 363.906,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-19",
+        "close": 374.96,
+        "sma_50": 364.7,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-20",
+        "close": 374.85,
+        "sma_50": 365.5018,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-21",
+        "close": 374.27,
+        "sma_50": 366.2788,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-24",
+        "close": 380.2,
+        "sma_50": 367.1046,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-25",
+        "close": 380.08,
+        "sma_50": 367.9144,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-26",
+        "close": 383.12,
+        "sma_50": 368.8374,
+        "sma_200": null
+      },
+      {
+        "date": "2025-11-28",
+        "close": 387.88,
+        "sma_50": 369.8826,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-01",
+        "close": 389.75,
+        "sma_50": 370.894,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-02",
+        "close": 387.24,
+        "sma_50": 371.7378,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-03",
+        "close": 386.88,
+        "sma_50": 372.5462,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-04",
+        "close": 387.13,
+        "sma_50": 373.4224,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-05",
+        "close": 386.44,
+        "sma_50": 374.2562,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-08",
+        "close": 385.42,
+        "sma_50": 375.0298,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-09",
+        "close": 387.4,
+        "sma_50": 375.7286,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-10",
+        "close": 389.05,
+        "sma_50": 376.4002,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-11",
+        "close": 393.24,
+        "sma_50": 377.1444,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-12",
+        "close": 395.44,
+        "sma_50": 377.9574,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-15",
+        "close": 395.8,
+        "sma_50": 378.7206,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-16",
+        "close": 395.89,
+        "sma_50": 379.3508,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-17",
+        "close": 399.29,
+        "sma_50": 380.0114,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-18",
+        "close": 398.57,
+        "sma_50": 380.5368,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-19",
+        "close": 399.02,
+        "sma_50": 381.2086,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-22",
+        "close": 408.23,
+        "sma_50": 381.9908,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-23",
+        "close": 413.64,
+        "sma_50": 382.7018,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-24",
+        "close": 411.93,
+        "sma_50": 383.3246,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-26",
+        "close": 416.74,
+        "sma_50": 383.9116,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-29",
+        "close": 398.6,
+        "sma_50": 383.9546,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-30",
+        "close": 398.89,
+        "sma_50": 384.1526,
+        "sma_200": null
+      },
+      {
+        "date": "2025-12-31",
+        "close": 396.31,
+        "sma_50": 384.0158,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-02",
+        "close": 398.28,
+        "sma_50": 384.4366,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-05",
+        "close": 408.76,
+        "sma_50": 385.0662,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-06",
+        "close": 413.18,
+        "sma_50": 385.754,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-07",
+        "close": 409.23,
+        "sma_50": 386.3882,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-08",
+        "close": 411.49,
+        "sma_50": 387.2778,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-09",
+        "close": 414.47,
+        "sma_50": 388.2796,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-12",
+        "close": 422.23,
+        "sma_50": 389.4642,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-13",
+        "close": 421.63,
+        "sma_50": 390.4942,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-14",
+        "close": 425.94,
+        "sma_50": 391.6506,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-15",
+        "close": 423.33,
+        "sma_50": 392.7416,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-16",
+        "close": 421.29,
+        "sma_50": 393.921,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-20",
+        "close": 437.23,
+        "sma_50": 395.3354,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-21",
+        "close": 443.6,
+        "sma_50": 396.886,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-22",
+        "close": 451.79,
+        "sma_50": 398.5556,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-23",
+        "close": 458.0,
+        "sma_50": 400.148,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-26",
+        "close": 464.7,
+        "sma_50": 401.8446,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-27",
+        "close": 476.1,
+        "sma_50": 403.6468,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-28",
+        "close": 494.56,
+        "sma_50": 405.8806,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-29",
+        "close": 495.9,
+        "sma_50": 408.2794,
+        "sma_200": null
+      },
+      {
+        "date": "2026-01-30",
+        "close": 444.95,
+        "sma_50": 409.7454,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-02",
+        "close": 427.13,
+        "sma_50": 410.801,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-03",
+        "close": 454.29,
+        "sma_50": 412.3876,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-04",
+        "close": 453.97,
+        "sma_50": 413.97,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-05",
+        "close": 441.88,
+        "sma_50": 415.3222,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-06",
+        "close": 455.46,
+        "sma_50": 416.8274,
+        "sma_200": null
+      },
+      {
+        "date": "2026-02-09",
+        "close": 467.03,
+        "sma_50": 418.5664,
+        "sma_200": 351.7148
+      },
+      {
+        "date": "2026-02-10",
+        "close": 462.4,
+        "sma_50": 420.152,
+        "sma_200": 352.4864
+      },
+      {
+        "date": "2026-02-11",
+        "close": 467.63,
+        "sma_50": 421.747,
+        "sma_200": 353.3009
+      },
+      {
+        "date": "2026-02-12",
+        "close": 451.39,
+        "sma_50": 422.9798,
+        "sma_200": 354.0125
+      },
+      {
+        "date": "2026-02-13",
+        "close": 462.62,
+        "sma_50": 424.4874,
+        "sma_200": 354.7953
+      },
+      {
+        "date": "2026-02-17",
+        "close": 448.2,
+        "sma_50": 425.7138,
+        "sma_200": 355.5175
+      },
+      {
+        "date": "2026-02-18",
+        "close": 458.28,
+        "sma_50": 427.1368,
+        "sma_200": 356.3216
+      },
+      {
+        "date": "2026-02-19",
+        "close": 459.56,
+        "sma_50": 428.5992,
+        "sma_200": 357.1295
+      },
+      {
+        "date": "2026-02-20",
+        "close": 468.62,
+        "sma_50": 430.2632,
+        "sma_200": 357.9382
+      },
+      {
+        "date": "2026-02-23",
+        "close": 481.28,
+        "sma_50": 432.1408,
+        "sma_200": 358.7672
+      },
+      {
+        "date": "2026-02-24",
+        "close": 474.61,
+        "sma_50": 433.852,
+        "sma_200": 359.5865
+      },
+      {
+        "date": "2026-02-25",
+        "close": 473.42,
+        "sma_50": 435.4556,
+        "sma_200": 360.4304
+      },
+      {
+        "date": "2026-02-26",
+        "close": 477.48,
+        "sma_50": 437.0964,
+        "sma_200": 361.2836
+      },
+      {
+        "date": "2026-02-27",
+        "close": 483.75,
+        "sma_50": 438.8554,
+        "sma_200": 362.2114
+      },
+      {
+        "date": "2026-03-02",
+        "close": 490.0,
+        "sma_50": 440.7376,
+        "sma_200": 363.1641
+      },
+      {
+        "date": "2026-03-03",
+        "close": 468.14,
+        "sma_50": 442.1146,
+        "sma_200": 364.039
+      },
+      {
+        "date": "2026-03-04",
+        "close": 471.8,
+        "sma_50": 443.5792,
+        "sma_200": 364.9088
+      },
+      {
+        "date": "2026-03-05",
+        "close": 466.13,
+        "sma_50": 444.9214,
+        "sma_200": 365.7683
+      },
+      {
+        "date": "2026-03-06",
+        "close": 473.51,
+        "sma_50": 446.227,
+        "sma_200": 366.6457
+      },
+      {
+        "date": "2026-03-09",
+        "close": 472.53,
+        "sma_50": 447.4048,
+        "sma_200": 367.4905
+      },
+      {
+        "date": "2026-03-10",
+        "close": 477.86,
+        "sma_50": 448.7234,
+        "sma_200": 368.3507
+      },
+      {
+        "date": "2026-03-11",
+        "close": 476.24,
+        "sma_50": 449.9134,
+        "sma_200": 369.2163
+      },
+      {
+        "date": "2026-03-12",
+        "close": 466.88,
+        "sma_50": 451.279,
+        "sma_200": 370.002
+      },
+      {
+        "date": "2026-03-13",
+        "close": 460.84,
+        "sma_50": 452.518,
+        "sma_200": 370.7837
+      },
+      {
+        "date": "2026-03-16",
+        "close": 460.43,
+        "sma_50": 453.8004,
+        "sma_200": 371.5668
+      },
+      {
+        "date": "2026-03-17",
+        "close": 459.27,
+        "sma_50": 455.0202,
+        "sma_200": 372.3351
+      },
+      {
+        "date": "2026-03-18",
+        "close": 444.74,
+        "sma_50": 455.7398,
+        "sma_200": 373.0407
+      },
+      {
+        "date": "2026-03-19",
+        "close": 426.41,
+        "sma_50": 456.0044,
+        "sma_200": 373.6144
+      },
+      {
+        "date": "2026-03-20",
+        "close": 413.38,
+        "sma_50": 456.0874,
+        "sma_200": 374.1368
+      },
+      {
+        "date": "2026-03-23",
+        "close": 404.04,
+        "sma_50": 455.9384,
+        "sma_200": 374.6025
+      },
+      {
+        "date": "2026-03-24",
+        "close": 404.13,
+        "sma_50": 455.7316,
+        "sma_200": 375.0765
+      },
+      {
+        "date": "2026-03-25",
+        "close": 416.29,
+        "sma_50": 455.6128,
+        "sma_200": 375.6321
+      },
+      {
+        "date": "2026-03-26",
+        "close": 400.64,
+        "sma_50": 455.193,
+        "sma_200": 376.1022
+      },
+      {
+        "date": "2026-03-27",
+        "close": 414.7,
+        "sma_50": 454.9682,
+        "sma_200": 376.6421
+      },
+      {
+        "date": "2026-03-30",
+        "close": 414.58,
+        "sma_50": 454.7932,
+        "sma_200": 377.1732
+      },
+      {
+        "date": "2026-03-31",
+        "close": 430.29,
+        "sma_50": 454.9732,
+        "sma_200": 377.7636
+      },
+      {
+        "date": "2026-04-01",
+        "close": 437.82,
+        "sma_50": 454.985,
+        "sma_200": 378.3713
+      },
+      {
+        "date": "2026-04-02",
+        "close": 429.41,
+        "sma_50": 454.7012,
+        "sma_200": 378.9594
+      },
+      {
+        "date": "2026-04-06",
+        "close": 427.65,
+        "sma_50": 454.2184,
+        "sma_200": 379.538
+      },
+      {
+        "date": "2026-04-07",
+        "close": 431.81,
+        "sma_50": 453.6946,
+        "sma_200": 380.1457
+      },
+      {
+        "date": "2026-04-08",
+        "close": 434.53,
+        "sma_50": 453.0912,
+        "sma_200": 380.7677
+      },
+      {
+        "date": "2026-04-09",
+        "close": 437.91,
+        "sma_50": 452.3274,
+        "sma_200": 381.4019
+      },
+      {
+        "date": "2026-04-10",
+        "close": 437.13,
+        "sma_50": 451.1788,
+        "sma_200": 382.0566
+      },
+      {
+        "date": "2026-04-13",
+        "close": 435.36,
+        "sma_50": 449.968,
+        "sma_200": 382.6978
+      },
+      {
+        "date": "2026-04-14",
+        "close": 445.09,
+        "sma_50": 449.9708,
+        "sma_200": 383.3893
+      },
+      {
+        "date": "2026-04-15",
+        "close": 440.46,
+        "sma_50": 450.2374,
+        "sma_200": 384.0855
+      },
+      {
+        "date": "2026-04-16",
+        "close": 440.08,
+        "sma_50": 449.9532,
+        "sma_200": 384.7618
+      },
+      {
+        "date": "2026-04-17",
+        "close": 445.93,
+        "sma_50": 449.7924,
+        "sma_200": 385.4537
+      },
+      {
+        "date": "2026-04-20",
+        "close": 442.09,
+        "sma_50": 449.7966,
+        "sma_200": 386.1179
+      },
+      {
+        "date": "2026-04-21",
+        "close": 429.57,
+        "sma_50": 449.2788,
+        "sma_200": 386.73
+      },
+      {
+        "date": "2026-04-22",
+        "close": 435.26,
+        "sma_50": 448.6434,
+        "sma_200": 387.3695
+      },
+      {
+        "date": "2026-04-23",
+        "close": 431.04,
+        "sma_50": 448.0162,
+        "sma_200": 388.0039
+      },
+      {
+        "date": "2026-04-24",
+        "close": 433.25,
+        "sma_50": 447.3286,
+        "sma_200": 388.6425
+      },
+      {
+        "date": "2026-04-27",
+        "close": 429.89,
+        "sma_50": 446.8986,
+        "sma_200": 389.261
+      },
+      {
+        "date": "2026-04-28",
+        "close": 421.91,
+        "sma_50": 446.0844,
+        "sma_200": 389.8248
+      }
+    ]
+  }
+}
